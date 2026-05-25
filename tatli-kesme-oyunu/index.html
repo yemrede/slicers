@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMR Tatlı Kesme | Cam Arkasından Sipariş FPS Oyunu</title>
+    <meta name="description" content="Müşterilerin cam arkasından el hareketleriyle gösterdiği şekillere göre tatlıları dilimlediğiniz, eğlenceli ve rahatlatıcı (ASMR) birinci şahıs (FPS) tatlı kesme oyunu.">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- PWA Settings -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff9b26">
+    <link rel="apple-touch-icon" href="assets/icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+
+    <div id="game-wrapper">
+        
+        <!-- SETTINGS & HUD HUD OVERLAY (TOP CORNERS) -->
+        <div id="settings-hud">
+            <button id="toggle-sound-btn" class="hud-circle-btn" title="Sesi Aç/Kapat" aria-label="Sesi Aç/Kapat">
+                <!-- Sound On SVG -->
+                <svg id="sound-on-svg" viewBox="0 0 24 24">
+                    <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                </svg>
+                <!-- Sound Off SVG (Hidden by default) -->
+                <svg id="sound-off-svg" viewBox="0 0 24 24" style="display:none;">
+                    <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.21.05-.42.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+                </svg>
+            </button>
+            <button id="home-btn" class="hud-circle-btn" title="Ana Menüye Dön" aria-label="Ana Menüye Dön">
+                <svg viewBox="0 0 24 24">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- 1. TOP HALF: STREET VIEW & CUSTOMER -->
+        <main id="street-view">
+            <!-- Dark street shade -->
+            <div id="street-overlay"></div>
+
+            <!-- Customer representation inside street view -->
+            <div id="customer-area">
+                <!-- Customer SVG dynamic content goes here -->
+            </div>
+
+            <!-- Speech bubble for dialogue and order specifications -->
+            <section id="dialogue-bubble" class="glass-panel">
+                <p id="dialogue-text">Tatlıcı ustası! Bana oradan güzel bir dilim tatlı kesebilir misin?</p>
+                <div id="order-hint" class="neon-text-caramel">Gereken Şekil: Kare Dilim</div>
+            </section>
+
+            <!-- Instructions Banner -->
+            <div id="instruction-banner">
+                <span id="instruction-text">Müşteri cama çiziyor, izle...</span>
+            </div>
+
+            <!-- The glass pane in front of the customer, serving as the interaction/draw surface -->
+            <div id="fog-overlay"></div>
+            <canvas id="glass-window"></canvas>
+        </main>
+
+        <!-- 2. SERVING BAR (MIDDLE SLOT) -->
+        <nav id="serving-bar">
+            <!-- Left Side stats -->
+            <div class="hud-item neon-text-caramel">
+                GÜN: <span id="hud-day">1</span>
+            </div>
+            
+            <!-- Serving hatch/slot in the counter -->
+            <div id="serving-slot">
+                <!-- Sliced plate to pull out & serve -->
+                <div id="serving-tray-plate" title="Tıklayarak Müşteriye Servis Et">
+                    <!-- Spatula/Plate graphic simulated by CSS -->
+                </div>
+                <div id="serving-slot-label" style="font-size: 0.65rem; color: rgba(255,255,255,0.4); text-transform: uppercase; font-weight: 800;">
+                    Servis Bölmesi
+                </div>
+            </div>
+
+            <!-- Right Side stats -->
+            <div class="hud-item neon-text-pink">
+                KASA: <span id="hud-cash">$0.00</span>
+            </div>
+        </nav>
+
+        <!-- 3. BOTTOM HALF: COUNTER VIEW WITH DESSERT TRAY -->
+        <section id="counter-view">
+            <!-- 3D Perspective wrapper for the dessert tray -->
+            <div id="dessert-tray-container">
+                <div id="dessert-canvas-wrapper">
+                    <canvas id="dessert-canvas" width="560" height="320"></canvas>
+                </div>
+            </div>
+
+            <!-- Selectable tools -->
+            <div id="controls-panel">
+                <button id="tool-knife" class="tool-btn active" title="Bıçak Toolu (Kesim yap)" aria-label="Bıçak Toolu">
+                    <!-- Knife SVG -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M19.59 12.01L12.01 19.59l-2.83-2.83L16.76 9.18l-1.41-1.41-7.58 7.58-1.41-1.41 7.58-7.58-1.41-1.41L4.94 12.5l-2.83-2.83L9.69 2.09c.78-.78 2.05-.78 2.83 0l7.07 7.07c.78.78.78 2.07 0 2.85zM6 18.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5S8.33 20 7.5 20s-1.5-.67-1.5-1.5z"/>
+                    </svg>
+                </button>
+                <button id="tool-spatula" class="tool-btn" title="Spatula Toolu (Dilim kaldır ve servis et)" aria-label="Spatula Toolu">
+                    <!-- Spatula SVG -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M19.11 3.25L20.8 4.94c.39.39.39 1.02 0 1.41L12.56 14.6l-2.83-2.83 8.25-8.25c.39-.39 1.03-.39 1.41 0zM3.5 18.5V21h2.5l7.5-7.5-2.5-2.5-7.5 7.5zM17 19h4v2h-4v-2z"/>
+                    </svg>
+                </button>
+                <button id="tool-reset" class="tool-btn" title="Tepsiyi Temizle / Tatlıyı Yenile (Maliyeti: $2)" aria-label="Tepsiyi Temizle">
+                    <!-- Trash SVG -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <!-- FPS CURSOR OVERLAY (Follows mouse when over dessert tray) -->
+        <div id="fps-tool-overlay">
+            <img id="fps-knife-img" class="fps-tool-img" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path d='M80 10 L85 15 L35 65 L20 65 L20 50 Z' fill='%23ccc' stroke='%23333' stroke-width='2'/><path d='M25 60 L10 75 L15 80 L30 65 Z' fill='%238B5A2B'/></svg>" alt="Bıçak Toolu">
+            <img id="fps-spatula-img" class="fps-tool-img" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect x='25' y='15' width='25' height='50' fill='%23bbb' rx='2'/><path d='M37 65 L37 85' stroke='%238B5A2B' stroke-width='8'/></svg>" alt="Spatula Toolu" style="display:none;">
+        </div>
+
+        <!-- 4. MENUS AND SCREEN OVERLAYS -->
+        
+        <!-- Main Menu -->
+        <div id="main-menu" class="screen-overlay">
+            <h1 class="game-title neon-text-caramel">ASMR TATLI KESME</h1>
+            <p class="game-subtitle">Cam Arkasındaki Sipariş</p>
+            
+            <div class="menu-options">
+                <button id="start-game-btn" class="btn btn-primary">Oyna (Start Game)</button>
+                <button id="level-select-btn" class="btn btn-secondary">Seviye Seç (Level Select)</button>
+                <button id="how-to-play-btn" class="btn btn-secondary">Nasıl Oynanır?</button>
+            </div>
+        </div>
+
+        <!-- Level Select Menu -->
+        <div id="level-menu" class="screen-overlay hidden">
+            <h2 class="report-title neon-text-caramel">Seviye Seç</h2>
+            <div class="level-select-grid">
+                <!-- Level 1 -->
+                <div class="level-card glass-panel" data-level="1">
+                    <div class="level-num">Bölüm 1</div>
+                    <div class="level-name">Karamelli Trileçe</div>
+                    <div class="level-desc">Basit kare ve dikdörtgen kesimler. Yumuşacık asmr kek.</div>
+                </div>
+                <!-- Level 2 -->
+                <div class="level-card glass-panel" data-level="2">
+                    <div class="level-num">Bölüm 2</div>
+                    <div class="level-name">Hindistan Cevizli Revani</div>
+                    <div class="level-desc">Geleneksel baklava kesimi. Çapraz ve baklava dilimleri.</div>
+                </div>
+                <!-- Level 3 -->
+                <div class="level-card glass-panel" data-level="3">
+                    <div class="level-num">Bölüm 3</div>
+                    <div class="level-name">Tepsi Baklava (Daire)</div>
+                    <div class="level-desc">Merkezden radyal dilimler. Çıtır fıstıklı şerbetli tatlı.</div>
+                </div>
+            </div>
+            <button id="level-back-btn" class="btn btn-secondary" style="width: 200px;">Geri Dön</button>
+        </div>
+
+        <!-- How To Play Modal -->
+        <div id="how-to-menu" class="screen-overlay hidden">
+            <h2 class="report-title neon-text-pink">Nasıl Oynanır?</h2>
+            <div class="glass-panel" style="padding: 24px; max-width: 500px; margin-bottom: 24px; font-size: 0.95rem; line-height: 1.6;">
+                <p><strong>1. Müşteriyi Dinle:</strong> Müşteri dükkanın vitrin camının önüne gelir. Parmağıyla buğulu cama dilimlemek istediği şekli çizerek tarif eder. Müşterinin el hareketlerini dikkatlice izle!</p>
+                <p style="margin-top:10px;"><strong>2. Tatlıyı Kes:</strong> Bıçak toolunu (<svg viewBox="0 0 24 24" style="width:14px;height:14px;fill:#fff;display:inline-block;vertical-align:middle;"><path d="M19.59 12.01L12.01 19.59l-2.83-2.83L16.76 9.18l-1.41-1.41-7.58 7.58-1.41-1.41 7.58-7.58-1.41-1.41L4.94 12.5l-2.83-2.83L9.69 2.09c.78-.78 2.05-.78 2.83 0l7.07 7.07c.78.78.78 2.07 0 2.85z"/></svg>) seç. Tepsideki tatlı üzerinde tıklayıp sürükleyerek kesikler oluştur. Kesimin doğruluğu önemlidir!</p>
+                <p style="margin-top:10px;"><strong>3. Dilimi Servis Et:</strong> Spatula toolunu (<svg viewBox="0 0 24 24" style="width:14px;height:14px;fill:#fff;display:inline-block;vertical-align:middle;"><path d="M19.11 3.25L20.8 4.94c.39.39.39 1.02 0 1.41L12.56 14.6l-2.83-2.83 8.25-8.25c.39-.39 1.03-.39 1.41 0zM3.5 18.5V21h2.5l7.5-7.5-2.5-2.5-7.5 7.5z"/></svg>) seç. Kestiğin dilimin üzerine tıkla. Dilim spatula ile kalkacaktır. Ardından yukarıdaki <strong>Servis Bölmesi</strong>'ne tıklayarak müşteriye ulaştır.</p>
+                <p style="margin-top:10px;"><strong>4. Bahşiş ve Puan:</strong> Müşteri kesiminin doğruluğuna göre sana puan ve bahşiş verecektir. Tepsideki tatlıyı bozarsan çöp kutusu butonuyla yenileyebilirsin ($2 maliyeti vardır).</p>
+            </div>
+            <button id="how-to-back-btn" class="btn btn-secondary" style="width: 200px;">Geri Dön</button>
+        </div>
+
+        <!-- Day Complete / Report Card -->
+        <div id="day-complete-panel" class="screen-overlay hidden">
+            <div class="report-card glass-panel">
+                <h2 id="report-day-title" class="report-title neon-text-caramel">GÜN 1 BİTTİ!</h2>
+                
+                <div class="stat-row">
+                    <span class="stat-label">Toplam Hizmet Edilen:</span>
+                    <span id="stat-customers" class="stat-val">5 Müşteri</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Ortalama Kesim Doğruluğu:</span>
+                    <span id="stat-accuracy" class="stat-val">85%</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Kazanılan Bahşiş:</span>
+                    <span id="stat-tips" class="stat-val" style="color: var(--neon-pistachio);">$12.50</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Tepsi Masrafı:</span>
+                    <span id="stat-expenses" class="stat-val" style="color: var(--neon-pink);">$4.00</span>
+                </div>
+                <div class="stat-row" style="border-top: 2px solid rgba(255,255,255,0.1); padding-top: 12px; margin-top: 20px;">
+                    <span class="stat-label" style="font-weight: 800; color: #fff;">Net Kar:</span>
+                    <span id="stat-net" class="stat-val" style="font-weight: 800; font-size: 1.2rem; color: var(--neon-caramel);">$8.50</span>
+                </div>
+
+                <div class="menu-options" style="margin-top: 30px; width: 100%;">
+                    <button id="next-day-btn" class="btn btn-primary">Sonraki Güne Geç</button>
+                    <button id="report-menu-btn" class="btn btn-secondary">Ana Menüye Dön</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script loading -->
+    <script src="game.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker registered!'))
+                    .catch(err => console.error('Service Worker registration failed!', err));
+            });
+        }
+    </script>
+</body>
+</html>
