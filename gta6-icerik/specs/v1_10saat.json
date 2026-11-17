@@ -1,0 +1,94 @@
+{
+ "script": "[[s:63]][[hook]]Türkiye'den tam {on saat|10 saat} önce GTA 6 oynayan bir ülke var. [[s:59]][[row:NZ]]Bugün saat {on dörtte|14:00'te} Yeni Zelanda'da gece yarısı oluyor ve GTA 6 dünyada ilk orada açılıyor. [[s:62]][[row:AU]]Saat {on altıda|16:00'da} Avustralya, [[row:KR]]{on sekizde|18:00'de} Güney Kore, [[row:AE]]{yirmi üçte|23:00'te} Dubai. [[s:82]][[row:TR]]Türkiye'de beklenen saat ise tam gece yarısı. [[s:72]][[row:UK]]Sonra sabah {üçte|03:00'te} İngiltere, [[row:US]]{sekizde|08:00'de} Amerika, [[row:MX]]en son {dokuzda|09:00'da} Meksika. [[s:0]][[panel:off]]Yani Amerika'dan {sekiz saat|8 saat} önce oynuyoruz, ama Yeni Zelanda'dan tam {on saat|10 saat} sonra. [[s:83]]O {on saat|10 saat} boyunca ilk görüntüleri ve gizli detayları bu sayfada anlatacağım. [[s:58]][[cta]]Peki sen GTA 6'yı saat kaçta açacaksın? Yorumlara yaz!",
+ "voice": "tr-TR-AhmetNeural",
+ "rate": "+12%",
+ "tag": "GTA 6 • BUGÜN 14:00",
+ "hook_lines": [
+  [
+   "TÜRKİYE'DEN 10 SAAT",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "ÖNCE GTA 6 OYNAYAN",
+   [
+    255,
+    222,
+    0
+   ]
+  ],
+  [
+   "BİR ÜLKE VAR",
+   [
+    255,
+    255,
+    255
+   ]
+  ]
+ ],
+ "hook_until": 3.0,
+ "board_title": "GTA 6 AÇILIŞ • TR SAATİYLE",
+ "board": [
+  {
+   "code": "NZ",
+   "name": "Yeni Zelanda",
+   "time": "14:00"
+  },
+  {
+   "code": "AU",
+   "name": "Avustralya",
+   "time": "16:00"
+  },
+  {
+   "code": "KR",
+   "name": "Güney Kore",
+   "time": "18:00"
+  },
+  {
+   "code": "AE",
+   "name": "Dubai",
+   "time": "23:00"
+  },
+  {
+   "code": "TR",
+   "name": "Türkiye",
+   "time": "00:00",
+   "note": "beklenen"
+  },
+  {
+   "code": "UK",
+   "name": "İngiltere",
+   "time": "03:00"
+  },
+  {
+   "code": "US",
+   "name": "ABD (Doğu)",
+   "time": "08:00"
+  },
+  {
+   "code": "MX",
+   "name": "Meksika",
+   "time": "09:00"
+  }
+ ],
+ "focus": {
+  "63": 0.72,
+  "59": 0.5,
+  "62": 0.5,
+  "82": 0.5,
+  "72": 0.35,
+  "0": 0.74,
+  "83": 0.5,
+  "58": 0.5
+ },
+ "out": "GTA6_10saat_once_oynayan_ulke.mp4",
+ "voice_file": "SES_DOSYASI.mp3",
+ "cta_lines": [
+  "SEN SAAT KAÇTA",
+  "AÇACAKSIN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ"
+}
