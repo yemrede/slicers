@@ -163,3 +163,16 @@ Kaynaklar:
 - https://www.sikayetvar.com/en/rockstar-games-us/i-cannot-fully-enjoy-gta-6-without-turkish-subtitles
 - https://www.sikayetvar.com/en/rockstar-games-us/gta-6-does-not-include-turkish-subtitles-or-ui-support
 - https://www.taylortailored.co.uk/news-current-affairs/was-gta-6-worth-the-13-year-wait-the-first-reviews-sales-figures-and-surprises-from-vice-city
+
+## 18 Kasım 21:12 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Sony uyarısı:** PS5 kullanıcıları oynamadan önce **en son sistem yazılımını** yüklemeli. | Gece 00:00 öncesi "Açmadan önce PS5'ini güncelle" hızlı ipucu | Engadget canlı blog |
+| 2 | **İlk gün yaması:** Rockstar henüz resmi bir yama notu/boyutu yayınlamadı; dolaşan rakamlar doğrulanmamış. Çökme/donma raporu yok. | "Yama dedikodularına inanma" — sadece gerçek sorun çıkarsa içerik | Resmi bilgi yok |
+| 3 | CBS: bir oyuncu "Görsel olarak inanılmaz" dedi; Engadget canlı blog PC'nin 2027'yi beklemesi gerektiğini yazıyor (resmi değil). | "İlk tepkiler" derlemesine eklenebilir | Kısmen |
+
+Kaynaklar:
+- https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
+- https://www.cbsnews.com/news/grand-theft-auto-6-release-date-price-what-to-know/
+- https://macmyths.com/how-gta-6-day-one-patches-and-post-launch-updates-will-work/
