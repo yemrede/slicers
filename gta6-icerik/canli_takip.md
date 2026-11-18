@@ -253,3 +253,17 @@ Kaynaklar:
 - https://www.khaleejtimes.com/business/tech/gta-6-launch-uae-release-time-cost-pre-orders-all-you-need-to-know
 - https://www.thenationalnews.com/arts-culture/pop-culture/2026/11/18/gta-6-launch-in-uae/
 - https://webtekno.com/gta-6-on-yukleme-baslangic-saatleri-h228512.html
+
+## 18 Kasım 23:42 — ⚠️ BÜYÜK GELİŞME
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **PSN büyük kesinti yaşadı (Sony doğruladı)** — açılıştan saatler önce. "Hizmetler meşgul" hataları, **giriş yapamama**, **GTA 6 kodu kullanamama** ve **sürüm yükseltme (Ultimate)** sorunları; bazı indirmeler yavaşladı/durdu, tekrar denemede ilerledi. Bir rapora göre durum sayfası tekrar yeşile döndü ama oyun/sosyal hizmetler bir ara kırmızıydı. **Xbox'ta sorun bildirilmedi.** | **"PSN çöktü! GTA 6'yı açamıyorsan bunu yap"** — TR 00:00 açılışında çok aranacak; yapılacaklar: status.playstation.com kontrol, kod/indirmeyi tekrar dene, sürekli yeniden deneme yerine biraz bekle, ön yüklemeyi bitirmiş ol | Çok kaynak (Axios, Hollywood Reporter, GamesRadar) |
+| 2 | Rockstar sunucularında aralıklı bağlantı sorunu iddiası (giriş zaman aşımı, yama indirme yoğunluğu) | Doğrulanırsa eklenir | Tek, zayıf kaynak |
+
+Kaynaklar:
+- https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers
+- https://www.hollywoodreporter.com/business/digital/gta-6-playstation-crash-outage-1236758425/
+- https://www.gamesradar.com/games/grand-theft-auto/ps5-users-report-playstation-network-errors-as-gta-6-fever-hits-with-some-struggling-to-redeem-codes/
+- https://mein-mmo.de/en/psn-down-for-the-gta-6-release-in-live-ticker-all-about-the-outage-and-the-server-status-on-ps5,1597022/
+- https://tech.sportskeeda.com/gaming-news/are-rockstar-servers-right-now-november-2026-connection-status-outage-details
