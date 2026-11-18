@@ -176,3 +176,17 @@ Kaynaklar:
 - https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
 - https://www.cbsnews.com/news/grand-theft-auto-6-release-date-price-what-to-know/
 - https://macmyths.com/how-gta-6-day-one-patches-and-post-launch-updates-will-work/
+
+## 18 Kasım 21:42 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Miami Heat "A Night in Vice City":** NBA takımı GTA VI temalı saha ve etkinliklerle özel tanıtım maçı düzenliyor (ESPN). | "NBA takımı sahasını Vice City'ye çevirdi" — ilginç dünya gündemi | ESPN |
+| 2 | **"En ucuz GTA 6 hangi ülkede?"** karşılaştırma haberleri Türk basınında (DonanımHaber, GZT, Tamindir): TR fiyatı Standard 3.999 TL / Ultimate 4.999 TL / kutulu 4.499 TL. | "GTA 6 en ucuz hangi ülkede? Türkiye kaçıncı?" — fiyat sıralaması kaynaktan okunup doğrulanmalı | Kısmen doğrulandı |
+| 3 | Sydney'li yayıncı: "Yapılmış en iyi oyun, daha 20 dakikadayız." Oyunda keşif/bug haberi hâlâ yok; çok sayıda canlı yayın sürüyor. | İlk tepkiler derlemesi | ThePrint (Reuters) |
+
+Kaynaklar:
+- https://espn.com/nba/story/_/id/50085674/miami-heat-night-vice-city-game
+- https://www.donanimhaber.com/gta-6-en-ucuz-nerede-hangi-ulkede-ne-kadar-fiyatla-satiliyor--207308
+- https://www.gzt.com/oyun/gta-6-en-ucuz-nerede-satiliyor-turkiye-ve-diger-ulkelerde-gta-6-fiyat-karsilastirmasi-ekonomi-haberleri-4236292
+- https://theprint.in/world/grand-theft-auto-vi-draws-rave-reviews-as-gamers-enter-vice-city/3102555/
