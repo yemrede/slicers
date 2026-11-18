@@ -18,3 +18,19 @@ Kaynaklar:
 - https://www.newsnow.com/us/Entertainment/Gaming/GTA+6
 - https://www.politikam.com/gta-6-turkiyede-saat-kacta-oynanacak-19-kasim-cikis-saati-on-yukleme-ve-pc-surumune-iliskin-son-bilgiler-neler
 - https://www.webtekno.com/gta-6-cikisindan-bir-gun-once-oynayabilirsiniz-h223906.html
+
+## 18 Kasım 16:42
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Xbox One'da GTA 6 — DOĞRULANDI (Xbox Wire, 10 Kas):** 19 Kas 01:00 ET (TR 09:00) itibarıyla Xbox Cloud Gaming ile Xbox One ve Series X/S'te bulut üzerinden oynanabilir. Oyunu ayrıca satın almak gerekiyor; görüntü Series S ayarlarında; Game Pass bulut süresi ayda 5-15 saatle sınırlı, ayrıca bulut süresi satın alınabiliyor; PC/telefon yok. Microsoft–Rockstar 10 yıllık ortaklık. | "Eski Xbox One'da GTA 6 oynanır mı? EVET ama..." — ⚠️ Türkiye'de Xbox Cloud Gaming desteklenen ülkeler arasında olmayabilir, içerikten önce doğrula | Doğrulandı (TR desteği kontrol edilmeli) |
+| 2 | **30 FPS — DOĞRULANDI (Rockstar açıklaması):** PS5, Xbox Series ve **PS5 Pro dahil** tüm konsollarda hedef 30 FPS, performans modu yok. PS5 Pro'ya özel: PSSR ile daha net görüntü + ışın izlemeli gölgeler. | "PS5 Pro aldın ama GTA 6 yine 30 FPS!" — tartışma/yorum Short'u | Doğrulandı |
+| 3 | Day-one yaması iddiası bu taramada doğrulanamadı | — | Doğrulanmadı |
+
+Kaynaklar:
+- https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/
+- https://www.digitalcitizen.life/gta-6-xbox-one-cloud-gaming-november-19-playtime-hours/
+- https://hwbusters.com/news/gta-vi-will-stream-to-the-original-xbox-one-on-day-one-but-xbox-cloud-gaming-now-runs-on-a-meter/
+- https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/
+- https://www.pushsquare.com/news/2026/11/gta-6-ps5-pro-features-revealed-30fps-target-on-both-consoles
+- https://wccftech.com/rockstar-grand-theft-auto-vi-30-fps-ps5-pro-no-performance-mode/
