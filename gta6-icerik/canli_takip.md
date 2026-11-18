@@ -210,3 +210,17 @@ Kaynaklar:
 - https://aaronshenny.github.io/gta6-news/posts/2026-03-31-will-the-new-zealand-trick-work-for-gta-6-fans-debate-rockstar-s-global-launch-strategy
 - https://gameranx.com/updates/id/560146/article/gta-6-fans-discuss-how-much-theyll-play-the-title-on-day-one
 - https://games.gg/news/gta-6-supposed-release-date-fans/
+
+## 18 Kasım 22:12
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Digital Foundry performans analizi (ikincil kaynaklardan):** PS5 ve PS5 Pro iç çözünürlük ~1440p (Pro'da PSSR ile daha net); base PS5 ağır patlamalarda **23 FPS'e** düşüyor. Xbox Series X ~1440p/30, yoğun çatışmada ~20 FPS. **Xbox Series S ~720p iç çözünürlük**, sık sık 30 FPS altı; DF'nin Series S yerine başka konsol önerdiği aktarılıyor. | **"Series S'te GTA 6 720p!"** — Türkiye'de Series S yaygın, çok ilgi çeker. "Hangi konsolda GTA 6 daha iyi?" karşılaştırması | Kaynaklar çelişkili; DF orijinali okunamadı — dikkatli dil |
+| 2 | **Para sistemi (Gtabase rehberi, doğrulanmalı):** 3 para türü — banka parası, nakit, çanta ganimeti. **Üzerindeki nakit ölünce kaybolabiliyor**, banka parası güvende → ganimeti sat, nakdi bankaya yatır. Para hilesi var mı belirsiz. | "GTA 6'da paranı kaybetmemek için bunu yap" — doğrulanırsa trick listesine | Tek kaynak, lansman öncesi olabilir |
+
+Kaynaklar:
+- https://mobidevices.com/en/gta-6-digital-foundry
+- https://www.altchar.com/game-news/gta-vi-dips-as-low-as-23fps-on-base-ps5-in-heavy-action-digital-foundry-finds-aJybE7x7IsZa
+- https://twistedvoxel.com/gta-6-xbox-series-x-vs-series-s-performance/
+- https://windowsforum.com/news/gta-6-xbox-series-s-performance-digital-foundry-finds-frequent-sub-30-fps-drops.453047/
+- https://www.gtabase.com/articles/gta-6/how-to-make-money-in-gta-6-full-money-making-guide
