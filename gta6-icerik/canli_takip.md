@@ -283,3 +283,17 @@ Kaynaklar:
 - https://vgtimes.com/gaming-news/175045-ps5-users-report-playstation-network-errors-as-gta-6-downloads-stall.html
 - https://www.tamindir.com/haber/kutulu-gta-6-ps5-kodu-bolge-kilidi_111073/
 - https://www.cnnturk.com/teknoloji/gta-6da-bolge-kilidi-soku-3447877
+
+## 19 Kasım 00:55
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Hata/çözüm rehberleri çoğaldı (resmi değil):** PS5'te kilit/sahiplik hatasında **Ayarlar > Kullanıcılar ve Hesaplar > Diğer > Lisansları Geri Yükle**; CE-100095-5 / CE-100096-6 / CE-108255-1 gibi kodlarda oyunu silip yeniden kurma öneriliyor. Kutulu kopyada kodu önce PS Store'da kullan. | **"GTA 6 açılmıyor mu? 3 hızlı çözüm"** — gece aranacak; "resmi değil" notuyla | Üçüncü taraf rehberler |
+| 2 | **Depolama:** Bir oyuncu kurulu boyutu **223,2 GB** bildirmiş; PS5 kutusunda **230 GB minimum** yazıyormuş (Rockstar'ın açıkladığı "212 GB'a kadar"dan yüksek). | "212 değil 223 GB!" — doğrulanırsa | Tek kaynak |
+| 3 | Türk oyunculardan ilk izlenim haberi henüz arama sonuçlarında yok (dizin gecikmesi). | — | — |
+
+Kaynaklar:
+- https://gamers.wiki/en/games/grand-theft-auto-vi/guides/gta-6-launch-day-troubleshooting-guide
+- https://depor.com/en/us-local/gta-6-not-working-how-to-fix-download-installation-and-launch-issues-nnda-nnrt-noticia/
+- https://gta6isdown.com/common-issues/
+- https://www.gtaboom.com/gta-6-release-times-when-it-unlocks-in-your-region-and-how-to-play-early-da2c
