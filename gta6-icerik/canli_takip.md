@@ -319,3 +319,17 @@ Kaynaklar:
 - https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/
 - https://www.techradar.com/live/news/gta-6-review-embargo-roundup-reaction-ask-me-anything-launch-live
 - https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+
+## 19 Kasım 01:55
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Kedi detayı netleşti:** viral klipte sıradan bir araba çalma, araçtaki kedinin oyuncuya saldırmasıyla ters gidiyor. (Video 8'deki "sinirli kedi" ifadesiyle uyumlu.) | Gerçek klip bulunursa Video 8'e eklenebilir | Windows Central |
+| 2 | **Gerçek bir "Easter egg":** bir oyuncu oyunda kelimenin tam anlamıyla bir yumurta (Easter egg) bulup emlakçıya fırlatmış. | Komik kısa içerik | Kotaku canlı blog |
+| 3 | **Sahara kargo kamyonu** — oyunun Amazon parodisi. | "GTA 6'nın Amazon'u: Sahara" — parodi markalar serisi fikri | Kotaku |
+| 4 | YouTube'da "GTA 6 ilk bug ve glitch derlemesi" videoları çıkmaya başladı. | Hata/glitch derlemesi Short'u | YouTube |
+
+Kaynaklar:
+- https://www.windowscentral.com/gaming/gta-6-players-are-ignoring-crime-to-jet-ski-with-dogs-and-redecorate-their-bedrooms-the-funniest-clips-so-far
+- https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+- https://www.youtube.com/watch?v=nD2xgBJxnJM
