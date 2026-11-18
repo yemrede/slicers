@@ -224,3 +224,17 @@ Kaynaklar:
 - https://twistedvoxel.com/gta-6-xbox-series-x-vs-series-s-performance/
 - https://windowsforum.com/news/gta-6-xbox-series-s-performance-digital-foundry-finds-frequent-sub-30-fps-drops.453047/
 - https://www.gtabase.com/articles/gta-6/how-to-make-money-in-gta-6-full-money-making-guide
+
+## 18 Kasım 22:42 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Oyun içi doğrulanmış easter egg haberi henüz yok.** Bilinen Vice City göndermeleri tanıtım malzemesinden: 2. fragmanda (~0:33) Tommy Vercetti gömleği giymiş bukalemun; ön sipariş sayfasındaki "WELCOME BACK TO VICE CITY" arka planı GTA Vice City'nin duraklatma menüsü arka planından uyarlanmış. Rockstar hiçbir easter egg'i resmen açıklamadı. | "GTA 6'daki gizli Vice City göndermeleri" — nostalji içeriği (oyun içi olanlar gelince güncellenir) | Dexerto, Sportskeeda |
+| 2 | Bazı rehber sitelerindeki "Mount Kalaga'da UFO", "motelde testere" gibi sırlar **kaynaksız** — kullanma. | Sahte sırlara karşı not | Doğrulanmadı |
+| 3 | BAE 23:00 TR'de açılıyor; henüz oyuncu tepkisi haberi yok. | — | — |
+
+Kaynaklar:
+- https://www.dexerto.com/gta/gta-6-trailer-has-vice-city-easter-egg-everyone-missed-for-over-a-year-3378247/
+- https://www.sportskeeda.com/gta/gta-6-pre-order-reveal-hides-vice-city-easter-eggs
+- https://gta6-life.com/en/guides/gta-6-easter-eggs/
+- https://tbreak.com/gta-6-release-time-uae-midnight-november-19/
