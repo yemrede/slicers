@@ -91,3 +91,17 @@ Kaynaklar:
 - https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/
 - https://www.tgrthaber.com/teknoloji/gta-6-icin-en-garip-kampanya-dogum-yapana-oyun-bedava-3282298
 - https://games.gg/tr/news/norveçli-operatörden-ücretsiz-gta-6-kampanyası/
+
+## 18 Kasım 18:42 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | Avrupa açılışları: Orta Avrupa 00:00 CET = **TR 02:00**, İngiltere 00:00 GMT = **TR 03:00**. Türkiye (00:00) Avrupa'nın çoğundan önce açılıyor. | "Türkiye Avrupa'dan 2 saat önce oynuyor" — gece kısa bilgi | Çok kaynak |
+| 2 | Spoiler uyarıları çoğaldı: CYBERLEEK sızıntıları (Ağu–Eki) hikâye sahneleri içeriyordu; rehberler X'te "GTA 6 leak", "CYBERLEEK", "GTA 6 spoilers" gibi terimleri sessize almayı öneriyor; sızıntı dosyası indirmenin virüs riski var. | Video 4'teki "spoiler'ı sessize al" maddesinin genişletilmiş hali: "Bu kelimeleri hemen sessize al" | Haberler eski tarihli, öneriler güncel |
+| 3 | Türk basınında bu akşam için yeni son dakika haberi yok. | — | — |
+
+Kaynaklar:
+- https://sixcentral.co.uk/countdown
+- https://keymap.io/releases/gta-6/
+- https://gtaintel.com/news/gta-6-prologue-leak-mute-spoilers
+- https://www.itechguides.com/what-to-do-if-you-accidentally-see-a-gta-6-leak/
