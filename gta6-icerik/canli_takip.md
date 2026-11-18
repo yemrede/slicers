@@ -267,3 +267,19 @@ Kaynaklar:
 - https://www.gamesradar.com/games/grand-theft-auto/ps5-users-report-playstation-network-errors-as-gta-6-fever-hits-with-some-struggling-to-redeem-codes/
 - https://mein-mmo.de/en/psn-down-for-the-gta-6-release-in-live-ticker-all-about-the-outage-and-the-server-status-on-ps5,1597022/
 - https://tech.sportskeeda.com/gaming-news/are-rockstar-servers-right-now-november-2026-connection-status-outage-details
+
+## 19 Kasım 00:26 — Türkiye açılışı sonrası
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **PSN kesintisi güncellemesi:** Downdetector'da 4.000+ bildirimle zirve; durum sayfasında sorun ~11:19 PT'de (TR 22:19) işaretlenip ~20 dk sonra "çözüldü" görünmüş; hizmetler geri gelmiş. Sony'nin kesinti açıklaması kaynaklara göre çelişkili; neden açıklanmadı (bir olasılık: zorunlu PS5 sistem güncellemesi + ön yükleme trafiği, doğrulanmadı). | "PSN çöktü mü? Şu an durum ne?" — kısa durum güncellemesi | Çok kaynak |
+| 2 | **🇹🇷 Bölge kilidi — Türkiye detayı:** Türkiye PSN hesabı **Asya bölgesi kodlarını etkinleştiremiyor**; **Almanya, Avustralya, Fransa, Hindistan, İspanya, İtalya** kodları TR PSN hesaplarıyla uyumlu olabiliyor (Tamindir). Xbox kodlarında bölge kısıtı yok. CNN Türk de "bölge kilidi şoku" haberi yaptı. | **"Yurt dışından GTA 6 kutusu aldıysan: hangi ülkenin kodu Türkiye'de çalışır?"** — TR'ye özel, çok faydalı | Türk basını (Tamindir, CNN Türk) |
+| 3 | Türkiye'den henüz oyuncu tepkisi/sorun haberi yok (açılışın ilk dakikaları). | Sonraki taramalar | — |
+
+Kaynaklar:
+- https://www.newsweek.com/playstation-users-report-access-issues-hours-before-gta-vi-launch-12736310
+- https://www.mensjournal.com/news/psn-down-playstation-network-sign-in-gta-6-nov-18
+- https://euroweeklynews.com/2026/11/18/chaos-erupts-as-playstation-goes-down-hours-before-gta-6-launch/
+- https://vgtimes.com/gaming-news/175045-ps5-users-report-playstation-network-errors-as-gta-6-downloads-stall.html
+- https://www.tamindir.com/haber/kutulu-gta-6-ps5-kodu-bolge-kilidi_111073/
+- https://www.cnnturk.com/teknoloji/gta-6da-bolge-kilidi-soku-3447877
