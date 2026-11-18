@@ -25,8 +25,8 @@
 ## Üretilen videolar
 | # | Konu | Durum |
 |---|---|---|
-| 1 | Türkiye'den 10 saat önce GTA 6 oynayan ülke | Hazır, onaylı; paylaşım saati bekleniyor |
-| 2 | Yeni Zelanda hilesi PS5'te işe yarıyor mu? | Hazır, onaylı; paylaşım saati bekleniyor |
+| 1 | Türkiye'den 10 saat önce GTA 6 oynayan ülke | Hazır ama kullanıcı RAFA KALDIRDI (18 Kas) — paylaşma, hatırlatma |
+| 2 | Yeni Zelanda hilesi PS5'te işe yarıyor mu? | PLANLANDI: Instagram 18 Kas 13:00 (kapaklı, ilk kare), YouTube Shorts 18 Kas 14:00 (https://www.youtube.com/watch?v=t0sxlBv5HGY) |
 | 3 | GTA 6'da Türkçe yok – CİMER şikâyeti | Senaryo yazıldı, henüz üretilmedi |
 | 4 | 4.811 gün – 13 yıllık bekleyiş | Senaryo yazıldı, henüz üretilmedi |
 
