@@ -151,3 +151,15 @@ Kaynaklar:
 - https://gulfnews.com/technology/gaming/gta-6-launch-live-global-rollout-begins-uae-countdown-reviews-and-latest-updates-1.500752496
 - https://consolepcgaming.com/viral-gta-6-gameplay-leak-convinces-fans-but-it-turns-out-it-is-just-an-ai
 - https://www.notebookcheck.net/GTA-6-Alleged-gameplay-leaks-turn-out-to-be-an-AI-hoax.1173045.0.html
+
+## 18 Kasım 20:42 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Şikayetvar'da Türkçe altyazı şikâyetleri başladı:** "Türkçe altyazı olmadan GTA 6'dan tam keyif alamıyorum", "GTA 6'da Türkçe altyazı/arayüz desteği yok" başlıklı şikâyetler. | "Türk oyuncular Şikayetvar'a koştu" — TR'ye özel gündem, Türkçe kampanya videolarının devamı | Şikayetvar (iki kayıt) |
+| 2 | Reddit'te erken tepki özeti: "literally nothing comes close to this" ("buna yaklaşan hiçbir şey yok"); oyuncuların işten izin aldığı haberleri. Gerçek oynanış şikâyeti henüz yok. | Gece yarısından sonra "ilk tepkiler" derlemesine eklenebilir | Tek kaynak |
+
+Kaynaklar:
+- https://www.sikayetvar.com/en/rockstar-games-us/i-cannot-fully-enjoy-gta-6-without-turkish-subtitles
+- https://www.sikayetvar.com/en/rockstar-games-us/gta-6-does-not-include-turkish-subtitles-or-ui-support
+- https://www.taylortailored.co.uk/news-current-affairs/was-gta-6-worth-the-13-year-wait-the-first-reviews-sales-figures-and-surprises-from-vice-city
