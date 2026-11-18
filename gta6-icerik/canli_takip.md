@@ -105,3 +105,18 @@ Kaynaklar:
 - https://keymap.io/releases/gta-6/
 - https://gtaintel.com/news/gta-6-prologue-leak-mute-spoilers
 - https://www.itechguides.com/what-to-do-if-you-accidentally-see-a-gta-6-leak/
+
+## 18 Kasım 19:12 — sakin tarama
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **AFP: Asya'da GTA 6 çılgınlığı + gri pazar.** Çin'de oyunun satış lisansı yok ama oyuncular yine de ön yükleme yapmış; Japonya sürümü sansürlü; Endonezyalı bir oyuncu Ultimate Edition (~80 $) için eşinden izin istemiş. | "Çin'de yasak ama herkes oynuyor" — ilginç/dünya gündemi | AFP (France24, Bangkok Post vb.) |
+| 2 | **PS5 dijital kopyada aylık internet kontrolü (30 günlük DRM) iddiası** — Sony'nin bir hafta sonra açıklama yaptığı haberi var; ayrıntı bu taramada doğrulanmadı. | "GTA 6'yı internetsiz oynayabilir misin?" — doğrulanırsa çok aranır | Doğrulanmadı |
+| 3 | PSN / PS Store'da şu an kesinti raporu yok (önceki ön sipariş günlerinde mağaza zorlanmıştı). Gece için kontrol: status.playstation.com | Gece 00:00'da sorun çıkarsa hızlı "PSN çöktü mü?" bilgisi | Bilgi |
+
+Kaynaklar:
+- https://www.france24.com/en/live-news/20261117-gamers-in-asia-stoked-to-play-gta-vi-many-on-grey-market
+- https://www.bangkokpost.com/life/tech/3356254/gamers-in-asia-rush-to-play-gta-vi-on-grey-market
+- https://www.gtaboom.com/sony-playstation-30-day-drm-timer-explained-9a9a
+- https://www.gtaboom.com/every-digital-gta-6-copy-on-ps5-might-need-a-monthly-internet-check-in-56b1
+- https://www.gamesradar.com/psn-down-error-code
