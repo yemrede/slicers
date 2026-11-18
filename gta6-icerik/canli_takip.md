@@ -120,3 +120,18 @@ Kaynaklar:
 - https://www.gtaboom.com/sony-playstation-30-day-drm-timer-explained-9a9a
 - https://www.gtaboom.com/every-digital-gta-6-copy-on-ps5-might-need-a-monthly-internet-check-in-56b1
 - https://www.gamesradar.com/psn-down-error-code
+
+## 18 Kasım 19:42
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **PS5 "30 günlük DRM" iddiası açıklığa kavuştu:** Sony'ye göre dijital oyunlarda lisans için **tek seferlik** çevrimiçi kontrol yeterli, sonra kalıcı lisans; ayda bir internete bağlanma zorunluluğu yok. Yeni alımlarda geçici 30 günlük sayaç görülmüş, internete bağlanınca kalıcı lisansla değişiyor. GTA 6'nın kendisinin çevrimdışı çalışıp çalışmadığı henüz test edilmedi. | "GTA 6 internetsiz oynanır mı? İlk açılışta 1 kez internet şart" — net, faydalı bilgi | Sony açıklaması (Tom's Hardware, TechRadar, Engadget); GTA 6'ya özel test yok |
+| 2 | **BAE açılışı TR 23:00'te** (bu gece). Dubai'de perakendeci Geekay gece yarısı etkinlikleri duyurmuş (tarih kaynaklarda çelişkili). Bazı Körfez ülkelerinde yasak ihtimali haberleri var (Haziran). | 23:00'te "Dubai'de oyun açıldı" anlık bilgi | Kısmen doğrulandı |
+
+Kaynaklar:
+- https://www.tomshardware.com/video-games/playstation/sony-confirms-ps4-and-ps5-digital-games-dont-require-an-online-check-in-every-30-days-new-drm-policy-only-checks-once-for-license-to-combat-against-refund-scams
+- https://www.techradar.com/gaming/sony-clarifies-ongoing-playstation-drm-issue-confirms-digital-games-require-a-one-time-online-check-to-authenticate-licenses-but-players-wont-experience-any-issues-beyond-that
+- https://www.engadget.com/2160918/sony-says-playstation-wont-check-game-licenses-every-30-days/
+- https://bo3.gg/games/articles/can-you-play-gta-6-offline
+- https://beebom.com/gta-6-gets-midnight-launch-events-across-dubai/
+- https://www.khaleejtimes.com/entertainment/gaming/could-gta-6-be-banned-in-four-gulf-countries-heres-what-we-know-so-far
