@@ -135,3 +135,19 @@ Kaynaklar:
 - https://bo3.gg/games/articles/can-you-play-gta-6-offline
 - https://beebom.com/gta-6-gets-midnight-launch-events-across-dubai/
 - https://www.khaleejtimes.com/entertainment/gaming/could-gta-6-be-banned-in-four-gulf-countries-heres-what-we-know-so-far
+
+## 18 Kasım 20:12
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **İlk gerçek oyuncu tepkileri (Reuters/AAP):** Avustralya ve Yeni Zelanda'da oyuncular gece yarısı oyuna girip canlı yayın açtı. Sydney'den bir yayıncı: grafikler "aklımı uçurdu"; Tazmanya'dan 20 yaşındaki bir oyuncu: "13 yıldır bekliyordum". Oyuncular en çok **sürüş hissini, grafikleri ve açık dünyayı** övüyor; X'te çok sayıda görüntü dolaşıyor. | "İlk oynayanlar ne diyor?" — gerçek tepki derlemesi | Doğrulandı (Reuters/AAP) |
+| 2 | **Ana hikâye ~50 saat** (tahmini). | "GTA 6 kaç saatte biter?" — çok aranan soru | Tahmin |
+| 3 | **Dikkat: yapay zekâ ile üretilmiş sahte "GTA 6 oynanış" klipleri** geçmişte milyonlarca izlenme aldı (ör. yağmurlu Vice City'de Lucia klibi, 8M+). Paylaşılan kliplerin gerçekliği kontrol edilmeli. | Kendi videolarımızda kaynağı belli olmayan klip kullanmamak için not; ayrıca "Bu GTA 6 videosu SAHTE" içerik fikri | Eski örnekler, güncel risk |
+
+Kaynaklar:
+- https://aapnews.aap.com.au/news/nz-and-aussie-gamers-among-first-to-play-gta-vi
+- https://www.canberratimes.com.au/story/9394289/aussie-gamers-among-first-in-the-world-to-play-gta-vi/
+- https://wdez.com/2026/11/18/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-global-rollout/
+- https://gulfnews.com/technology/gaming/gta-6-launch-live-global-rollout-begins-uae-countdown-reviews-and-latest-updates-1.500752496
+- https://consolepcgaming.com/viral-gta-6-gameplay-leak-convinces-fans-but-it-turns-out-it-is-just-an-ai
+- https://www.notebookcheck.net/GTA-6-Alleged-gameplay-leaks-turn-out-to-be-an-AI-hoax.1173045.0.html
