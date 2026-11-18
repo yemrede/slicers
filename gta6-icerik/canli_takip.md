@@ -350,3 +350,22 @@ Kaynaklar:
 - https://www.sondakika.com/yerel/haber-antakya-da-oyun-tutkunlari-gta-6-yi-gece-yarisi-de-20440992/
 - https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers
 - https://tech.yahoo.com/gaming/breaking-news/article/is-gta-6-out-how-people-are-playing-the-new-game-already-plus-what-the-verdict-is-so-far-152323498.html
+
+## 19 Kas 02:55 TR — canlı takip
+1. **Bigfoot (Skunk Ape) bulundu!** Hamlet yakınındaki Cottonmouth Lake'in güneyinde (Bölüm 1 başlangıcına yakın) geyik leşi yerken görülüyor; bataklığa kaçıyor, ağaca bağlı tuhaf bir totem kalıyor — inceleyince bayılıp başladığın yerde uyanıyorsun. (Insider Gaming, GameRant, GamesRadar, VGTimes)
+2. **Satış:** Raporlara göre ilk saatte ~1 milyar $ (GameRant); Sensor Tower lansman günü ~17 milyon kopya / ~1,65 milyar $ tahmini. Take-Two resmî rakam vermedi. GTA V rekoru: 24 saatte 11,21 milyon. Take-Two hissesi %6 yükseldi (TalkEsport).
+3. **Harita:** Kotaku Leonida'yı güneyden kuzeye yürüyerek 3 sa 21 dk'da geçti (GTA V ~2,5 sa).
+4. **İlk bug:** Bir yayıncı köprü ayağı ile rıhtım arasına sıkışıp çılgınca titreyen bir tekne buldu; Rockstar onaylı bug/hile yok. Lansman öncesi 01.002.000 ve 01.002.001 güncellemeleri notsuz geldi (RockstarINTEL).
+5. **Gizli eski ipucu:** "GTA 6 evi" görüntüsü 2021'deki San Andreas Definitive Edition'da saklıymış (VGC).
+
+**İçerik fırsatı:** "GTA 6'da BIGFOOT bulundu! İşte yeri" — konum + bayılma sahnesi; yüksek merak, Türk kitlesi şu an oynuyor → hemen gidip deneyebilir. (Klip: YouTube Shorts'ta "GTA 6 Bigfoot" ara → vidIQ import.)
+
+Kaynaklar:
+- https://insider-gaming.com/where-to-find-bigfoot-gta-6/
+- https://gamerant.com/gta-6-bigfoot-location-where-to-find/
+- https://www.gamesradar.com/games/grand-theft-auto/gta-6-bigfoot-sightings-are-already-ramping-up-as-rockstar-honors-a-22-year-old-grand-theft-auto-legend/
+- https://gamerant.com/gta-6-copies-sold-billion-dollar-sales-hour/
+- https://www.talkesport.com/gta-6/take-two-market-value-gta-6-launch-3-billion/
+- https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
+- https://www.addictinggames.com/news/streamer-finds-first-gta-6-bug
+- https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/
