@@ -52,3 +52,23 @@ Kaynaklar:
 - https://insider-gaming.com/gta-6-ps5-codes-are-region-locked-but-xbox-version-isnt/
 - https://www.itechguides.com/gta-6-download-and-launch-errors-what-to-check-on-ps5-and-xbox/
 - https://sundayguardianlive.com/trending/watch-viral-video-first-look-at-the-gta-6-intro-new-zealand-launches-the-game-then-this-stunning-loading-screen-clip-goes-viral-324038/
+
+## 18 Kasım 17:42
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Bedava GTA 6 kodu:** Kick "Sunset Reward Case" kampanyasında 10.000 adet GTA 6 Ultimate Edition kodu (PS5/Xbox) dağıtıyor; Twitch 19-30 Kasım arası izleyicilere sürpriz GTA 6 kodu dağıtacak (adet/koşul açıklanmadı). | "Bedava GTA 6 kazanmanın 2 yolu" — çok yüksek tıklama potansiyeli; katılım koşulları ve Türkiye'nin dahil olup olmadığı kontrol edilmeli | Dexerto + Teknoblog |
+| 2 | **Para:** Take-Two'nun açıkladığı tek kesin rakam: ön sipariş döneminde **1,39 milyar $** satış. Kore basını 11,27 milyon ön sipariş diyor (doğrulanmadı). Newzoo tahmini: ilk hafta 3,25–5,2 milyar $. | "GTA 6 daha çıkmadan 1,39 milyar dolar kazandı" | Rakam kısmen doğrulandı |
+| 3 | **Kore ve Japonya:** Güney Kore'de oyun neredeyse yasaklanıyordu (çıplaklık nedeniyle; kurul 8-1 oyla yetişkin derecesi verdi). Japonya'da sansür endişesi: Japon sürümü 208,72 GB, diğerleri 209,91 GB; derecelendirmede cinsellik/uyuşturucu ikonu yok. Rockstar fark olduğunu doğrulamadı. | "GTA 6 Japonya'da sansürlü mü? 1 GB'lık gizem" — merak uyandırıcı | Çok kaynak (GamesRadar, PC Gamer, Dexerto) |
+| 4 | **Türk topluluğu:** Türk hayranlar 26 dakikalık oynanış tanıtımının tamamını Türkçe dublajladı; Türkçe dil desteği kampanyası uluslararası basında (Sportskeeda, GTABoom) haber oldu. | "Dünya basını Türk oyuncuları konuşuyor" — gurur/aidiyet içeriği | Çok kaynak |
+
+Kaynaklar:
+- https://dexerto.com/gta/kick-and-twitch-are-giving-away-thousands-of-gta-6-codes-to-viewers-before-launch-3428151
+- https://www.teknoblog.com/twitch-gta-6-kod-dagitimi/
+- https://techradar.com/gaming/the-level-of-pre-orders-is-unprecedented-take-two-reportedly-made-usd1-39-billion-in-sales-during-gta-6s-pre-order-period
+- https://en.sedaily.com/business/2026/11/15/gta-6-arrives-after-13-years-stirring-koreas-game-industry
+- https://www.dexerto.com/gta/gta-6-predicted-to-make-up-to-5-2-billion-during-launch-week-3388183/
+- https://www.gamesradar.com/games/grand-theft-auto/gta-6-censorship-worries-bubble-up-in-japan-the-install-size-is-different-to-everywhere-else-and-the-age-rating-drops-sex-and-drugs/
+- https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/
+- https://everythingedinburgh.com/games/news/gta-6-turkish-dub-language-support/
+- https://sportskeeda.com/gta/news-turkish-gamers-rally-online-gta-6-support-local-language
