@@ -333,3 +333,20 @@ Kaynaklar:
 - https://www.windowscentral.com/gaming/gta-6-players-are-ignoring-crime-to-jet-ski-with-dogs-and-redecorate-their-bedrooms-the-funniest-clips-so-far
 - https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
 - https://www.youtube.com/watch?v=nD2xgBJxnJM
+
+## 19 Kas 02:25 TR — canlı takip
+1. **Hikâye görevleri tekrar oynanamıyor** — Menüde "görevi tekrar oyna" yok; IGN'e göre dallanan hikâye yüzünden. Çözüm: 15 manuel kayıt yuvası → önemli görevden önce kayıt al. (Insider Gaming, ComicBook, Pirat_Nation/X)
+2. **Türkiye açılışı:** Hatay/Antakya'da gençler gece yarısı oyun salonlarına akın etti; grafikleri beğendiler, Türkçe olmamasını eksik buldular. Bazı haberlerde açılış 01:00 diye geçiyor (resmî saat 00:00). (sondakika, saraymedya, aksiyon)
+3. **PSN:** Öğleden sonraki kesinti akşam düzelmişti; şu an yeni büyük kesinti haberi yok. Sony telafi açıklamadı (2025'te PS Plus +5 gün vermişti). (Axios, Yahoo, Tom's Guide)
+4. **17 milyon+ ön sipariş**, açılış sorunsuz gidiyor (Yahoo/NBC).
+5. Bazı ABD'li Xbox oyuncuları konsol bölgesini Yeni Zelanda yaparak erken girdi (zaten Video 2 konusu).
+
+**İçerik fırsatı:** "GTA 6'da bu hatayı yapma: görevi tekrar oynayamazsın!" — kısa uyarı/trick Short'u (manuel kayıt al). Yüksek pratik değer, yeni başlayanlara.
+
+Kaynaklar:
+- https://insider-gaming.com/gta-6-doesnt-allow-you-to-replay-story-missions/
+- https://comicbook.com/gaming/news/gta-6-removes-a-major-gta-5-feature-but-the-reasoning-makes-sense/
+- https://x.com/Pirat_Nation/status/2123025602684875013
+- https://www.sondakika.com/yerel/haber-antakya-da-oyun-tutkunlari-gta-6-yi-gece-yarisi-de-20440992/
+- https://www.axios.com/2026/11/18/gta-6-playstation-psn-servers
+- https://tech.yahoo.com/gaming/breaking-news/article/is-gta-6-out-how-people-are-playing-the-new-game-already-plus-what-the-verdict-is-so-far-152323498.html
