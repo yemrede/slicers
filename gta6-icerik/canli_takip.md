@@ -190,3 +190,23 @@ Kaynaklar:
 - https://www.donanimhaber.com/gta-6-en-ucuz-nerede-hangi-ulkede-ne-kadar-fiyatla-satiliyor--207308
 - https://www.gzt.com/oyun/gta-6-en-ucuz-nerede-satiliyor-turkiye-ve-diger-ulkelerde-gta-6-fiyat-karsilastirmasi-ekonomi-haberleri-4236292
 - https://theprint.in/world/grand-theft-auto-vi-draws-rave-reviews-as-gamers-enter-vice-city/3102555/
+
+## 18 Kasım ~22:00 — Reddit özel taraması (kullanıcı isteği)
+
+Not: Reddit otomatik erişimi engellediği için doğrudan okunamadı; Reddit gündemini aktaran haber kaynaklarından derlendi.
+
+| # | Reddit'te konuşulan | İçerik fırsatı | Kaynak |
+|---|---|---|---|
+| 1 | **GTA 6 hayatı ele geçirdi:** işten/aileden izin alanlar; bebeği tam 19 Kasım'da doğacak olan bir kullanıcı; oyun için ne kadar izin alındığı yüzünden tartışan çiftler; sigarayı GTA 6'ya kadar bırakan biri. | "GTA 6 için insanlar neler yaptı?" komik derleme | Cybernews |
+| 2 | **"Grafik düşüşü" tartışması:** lansman fragmanı için "bulanık, karanlık, fazla sarı" yorumları; bilinçli stil mi yoksa düşüş mü tartışılıyor. | "GTA 6 grafikleri düştü mü?" — fragman vs oynanış karşılaştırması | GamingBible (16 Eki) |
+| 3 | **Spoiler korkusu ve dünya çapında aynı anda çıkış talebi:** "Yeni Zelanda İngiltere'den 12 saat önde, 18'inde herkes spoiler yiyecek"; Crimson Desert'te NZ hilesinin çalışmadığı örneği veriliyor. | Spoiler'dan korunma içeriği | Opencritic, Windows Central, aaronshenny |
+| 4 | **"İlk gün kaç saat oynayacaksın?"** başlıkları | Topluluk sorusu / anket Short'u | Gameranx |
+| 5 | **"GTA 6 vs Google Maps" konum karşılaştırmaları:** oyundaki yerler ile gerçek Miami/Florida yan yana | **Güçlü fikir:** "GTA 6'daki yerlerin gerçek hali" — oynanış klipleri gelince | games.gg (r/GTA6) |
+
+Kaynaklar:
+- https://cybernews.com/tech/gta-6-taking-over/
+- https://www.gamingbible.com/news/gta-6-graphics-downgrade-launch-trailer-fan-reaction-595394-20261016
+- https://opencritic.com/news/26645/gta-6-launch-times-are-already-leaving-gamers-concerned
+- https://aaronshenny.github.io/gta6-news/posts/2026-03-31-will-the-new-zealand-trick-work-for-gta-6-fans-debate-rockstar-s-global-launch-strategy
+- https://gameranx.com/updates/id/560146/article/gta-6-fans-discuss-how-much-theyll-play-the-title-on-day-one
+- https://games.gg/news/gta-6-supposed-release-date-fans/
