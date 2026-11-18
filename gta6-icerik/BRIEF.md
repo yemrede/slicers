@@ -30,6 +30,7 @@
 | 3a | GTA 6'ya 99 puan! Tarihe geçti (Metacritic) | YAYINDA: YouTube Shorts 18 Kas ~14:40 (https://www.youtube.com/watch?v=Fdjnp0nqG3w). Instagram'a kullanıcı istemedi. |
 | 4 | GTA 6'yı açar açmaz bu 5 şeyi yap | Hazır, YouTube taslağı var (postId 54ec4c63...), kullanıcı kararı bekleniyor (öneri 23:00) |
 | 5 | GTA 6'nın ilk oynanış görüntüleri (kullanıcının verdiği X + YouTube klipleri) | YAYINDA: YouTube Shorts 18 Kas (https://www.youtube.com/watch?v=yt35uvE33xo) |
+| 6 | Bedava GTA 6 kazanmanın 2 resmi yolu (Kick + Twitch, gerçek arayüz + kasa/drop animasyonları; ses: kullanıcının gönderdiği Nil kaydı) | YAYINDA: YouTube Shorts 18 Kas ~21:15 (https://www.youtube.com/watch?v=igoOsIpHxPM) + Instagram Reels (kapaklı) |
 | 3 | GTA 6'da Türkçe yok – CİMER şikâyeti | Senaryo yazıldı, henüz üretilmedi |
 | 4 | 4.811 gün – 13 yıllık bekleyiş | Senaryo yazıldı, henüz üretilmedi |
 
