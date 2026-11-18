@@ -297,3 +297,25 @@ Kaynaklar:
 - https://depor.com/en/us-local/gta-6-not-working-how-to-fix-download-installation-and-launch-issues-nnda-nnrt-noticia/
 - https://gta6isdown.com/common-issues/
 - https://www.gtaboom.com/gta-6-release-times-when-it-unlocks-in-your-region-and-how-to-play-early-da2c
+
+## 19 Kasım 01:25 — ⭐ İLK VİRAL KEŞİFLER
+
+| # | Keşif | İçerik fırsatı | Kaynak |
+|---|---|---|---|
+| 1 | **Jet skiyle açık denize yeterince uzaklaşırsan güneş gözlüklü bir köpek jet skiyle gelip seni kurtarıyor.** | ⭐ "GTA 6'da denizde kaybolursan ne oluyor?" — en viral aday | Windows Central, Engadget |
+| 2 | **Araba çalınca çok sinirli bir kedi çıkabiliyor.** | Komik detay | Engadget canlı blog |
+| 3 | **Jason parmak arası terlikle çorap giyemiyor** — seçenek kilitli. | "Rockstar bu kombine izin vermiyor" — komik moda detayı | Engadget |
+| 4 | **62 kuş türü + yaban hayatı kayıt defteri** (gördüğün kuşları kaydediyorsun). | "GTA 6'da kuş gözlemciliği var!" | PC Gamer |
+| 5 | Oyun içi haberlerde Leonida'nın "furry-free" ilan edildiği bir makale. | Mizah detayı | Engadget |
+| 6 | Oyuncular suç işlemek yerine **köpekle jet ski** yapıyor, **yatak odası dekore ediyor** — en komik klipler derlemesi. | "Kimse suç işlemiyor!" derleme | Windows Central |
+| 7 | **Tip (TechRadar, 100+ saat oynayan):** Arabanı üs gibi kullan — ekipman değiştirme ve kaçış noktası. | Trick listesine ek | TechRadar |
+| 8 | IGN de **10/10** verdi. ABD'de 43 askerin yeniden askerlik bonusu olarak GTA 6 için izin aldığı haber (Kotaku). | Gündem | Kotaku |
+
+**Önerilen Short:** "GTA 6'da ilk gecede bulunan en çılgın 5 detay" (köpekli jet ski kurtarma, sinirli kedi, çorap+terlik yasağı, 62 kuş türü, furry-free haber).
+
+Kaynaklar:
+- https://www.windowscentral.com/gaming/gta-6-players-are-ignoring-crime-to-jet-ski-with-dogs-and-redecorate-their-bedrooms-the-funniest-clips-so-far
+- https://www.engadget.com/2320788/gta-vi-launch-day-live-blog/
+- https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/
+- https://www.techradar.com/live/news/gta-6-review-embargo-roundup-reaction-ask-me-anything-launch-live
+- https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
