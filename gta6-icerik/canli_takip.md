@@ -34,3 +34,21 @@ Kaynaklar:
 - https://www.videogameschronicle.com/news/rockstar-confirms-gta-6-targets-30-fps-with-ps5-pro-exclusive-ray-tracing/
 - https://www.pushsquare.com/news/2026/11/gta-6-ps5-pro-features-revealed-30fps-target-on-both-consoles
 - https://wccftech.com/rockstar-grand-theft-auto-vi-30-fps-ps5-pro-no-performance-mode/
+
+## 18 Kasım 17:12
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Xbox Cloud Gaming Türkiye'de RESMİ OLARAK DESTEKLENMİYOR.** 2025 sonu 29 ülkelik genişlemede Türkiye yok; Game Pass Ultimate olsa da Türkiye'den erişilemiyor; VPN'le girenler gecikme/takılma bildiriyor. → Türkiye'deki Xbox One sahipleri yarınki bulut çıkışından resmi olarak yararlanamaz. | "Xbox One'da GTA 6 çıktı ama Türkiye'de oynayamıyoruz" — TR'ye özel, yüksek ilgi | Türk teknoloji siteleri (ShiftDelete, DonanımHaber); Microsoft'un güncel listesiyle teyit önerilir |
+| 2 | **PS5 indirme kodları bölge kilitli** (Rockstar destek sayfası): kod, PSN hesabının bölgesi Rockstar'ın listesindeyse çalışıyor; **Xbox kodları bölge kilitsiz.** Yurt dışından kutu alanlar risk altında. | "Yurt dışından GTA 6 kutusu aldıysan dikkat" — (kutu konusu kullanıcının kendi videosuyla çakışabilir, açı farklı: bölge kilidi) | Çok kaynak (PC Guide, Insider Gaming, Notebookcheck) |
+| 3 | PS5 hata kodu **CE-107872-5** = depolama hatası (yer aç / başka konum seç) — tek üçüncü taraf rehber | Gece 00:00'da "Hata alırsan bunu yap" hızlı yardım içeriği | Tek kaynak, resmi değil |
+| 4 | NZ'den "flamingolu yükleme ekranı" klibi viral — Rockstar doğrulamadı | Klip linki bulunursa oynanış Short'u | Doğrulanmadı |
+
+Kaynaklar:
+- https://shiftdelete.net/xbox-cloud-gaming-29-ulkeye-daha-geldi-peki-turkiye
+- https://learn.microsoft.com/tr-tr/answers/questions/5929706/l-tfen-xbox-cloud-gaming-t-rkiyeye-getirin
+- https://mavikol.com/grand-theft-auto-vi-xbox-one-cloud-nasil-oynanir
+- https://www.pcguide.com/news/rockstar-confirms-gta-6-is-region-locked-on-ps5-even-if-you-buy-physical-because-you-only-get-a-download-code/
+- https://insider-gaming.com/gta-6-ps5-codes-are-region-locked-but-xbox-version-isnt/
+- https://www.itechguides.com/gta-6-download-and-launch-errors-what-to-check-on-ps5-and-xbox/
+- https://sundayguardianlive.com/trending/watch-viral-video-first-look-at-the-gta-6-intro-new-zealand-launches-the-game-then-this-stunning-loading-screen-clip-goes-viral-324038/
