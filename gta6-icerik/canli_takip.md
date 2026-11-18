@@ -238,3 +238,18 @@ Kaynaklar:
 - https://www.sportskeeda.com/gta/gta-6-pre-order-reveal-hides-vice-city-easter-eggs
 - https://gta6-life.com/en/guides/gta-6-easter-eggs/
 - https://tbreak.com/gta-6-release-time-uae-midnight-november-19/
+
+## 18 Kasım 23:12
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Konsol arayüzleri GTA 6'ya büründü:** PS5'te hoş geldin ekranından PlayStation mobil uygulamasına kadar GTA 6 teması (Gamermarkt); Xbox da GTA 6 için özel "Event" arka planı yayınladı (Pure Xbox). | "PS5'in ana ekranı GTA 6 oldu" — açılış gecesi hızlı, görsel Short | Kısmen doğrulandı |
+| 2 | **BAE'de yaş sınırı 21+.** Açılış BAE'de gece yarısı (TR 23:00) gerçekleşti/gerçekleşiyor; kaynaklar çelişkili saat damgalı. | Bilgi | Khaleej Times / The National |
+| 3 | Türk basını: açılış **00:00**, ön yükleme 10 Kasım'dan beri açık; yeni bir sorun haberi yok. | Gece yarısı canlı takip | Çok kaynak |
+
+Kaynaklar:
+- https://www.gamermarkt.com/blog/tr/?p=6477
+- https://www.purexbox.com/features/10-features-that-surprised-me-while-playing-gta-6-on-xbox-series-x
+- https://www.khaleejtimes.com/business/tech/gta-6-launch-uae-release-time-cost-pre-orders-all-you-need-to-know
+- https://www.thenationalnews.com/arts-culture/pop-culture/2026/11/18/gta-6-launch-in-uae/
+- https://webtekno.com/gta-6-on-yukleme-baslangic-saatleri-h228512.html
