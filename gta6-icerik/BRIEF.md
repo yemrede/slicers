@@ -32,6 +32,7 @@
 | 5 | GTA 6'nın ilk oynanış görüntüleri (kullanıcının verdiği X + YouTube klipleri) | YAYINDA: YouTube Shorts 18 Kas (https://www.youtube.com/watch?v=yt35uvE33xo) |
 | 6 | Bedava GTA 6 kazanmanın 2 resmi yolu (Kick + Twitch, gerçek arayüz + kasa/drop animasyonları; ses: kullanıcının gönderdiği Nil kaydı) | YAYINDA: YouTube Shorts 18 Kas ~21:15 (https://www.youtube.com/watch?v=igoOsIpHxPM) + Instagram Reels (kapaklı) |
 | 7 | GTA 6'da ilk saatler: 4 trick (açılış görevleri, Focus Mode, koyu mavi binalar, NPC dinle; overlay animasyonları; ses: kullanıcının Nil kaydı) | YAYINDA: YouTube Shorts 19 Kas ~00:35 (https://www.youtube.com/watch?v=fBgZ4GDQUSQ) + Instagram Reels |
+| 8 | GTA 6'da ilk gecede bulunan en çılgın 4 detay (terlik+çorap kilidi, ev tamiri, kedi saldırısı, jet ski süren köpek — her biri gerçek oyun içi klip; kuşlar çıkarıldı; ses: ElevenLabs Nil) | Hazır, paylaşım onayı bekleniyor |
 | 3 | GTA 6'da Türkçe yok – CİMER şikâyeti | Senaryo yazıldı, henüz üretilmedi |
 | 4 | 4.811 gün – 13 yıllık bekleyiş | Senaryo yazıldı, henüz üretilmedi |
 
@@ -50,6 +51,8 @@ pip3 install yt-dlp faster-whisper edge-tts
 - Altyazı zamanlaması: faster-whisper (small) ile ses ↔ senaryo hizalaması.
 
 ## Notlar
+- ElevenLabs (bu hesap) 19 Kas 02:45 itibarıyla ~35 karakter kaldı → BİTTİ sayılır; yeni seslendirme için kullanıcının başka hesabı/kaydı gerekir.
+- Görüntü kuralı: her konu için o konuyu gösteren GERÇEK klip bul (YouTube Shorts → vidIQ import, X → yt-dlp); genel/eski oynanış görüntüsünü tekrar kullanma.
 - ElevenLabs ücretsiz paketi bir kez "olağan dışı etkinlik" diye üretimi durdurdu, sonra tekrar çalıştı. Yedek: vidIQ seslendirmesi (~28 kredi / 1000 karakter) veya Microsoft Edge "tr-TR-AhmetNeural".
 - vidIQ kredisi sınırlı (~100); araştırmada önce ücretsiz web aramasını kullan.
 - Araştırma brifi: `arastirma/01_cikis_oncesi.md`

@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/dog_hook.mp4@0@1920]][[hook]]GTA 6 daha ilk gecesinde oyuncuları şoke etti. İşte bulunan en çılgın dört detay. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/socks_slow.mp4@0@1100]][[ov:d4]]{Dört:|4.} Jason parmak arası terlikle çorap giyemiyor. Rockstar bu kombini resmen kilitlemiş. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/reno.mp4@9@900]][[ov:d3]]{Üç:|3.} Oyuncular soygunu bırakıp Jason'ın evini tamir ediyor. Alçıpanı vidalıyor, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/reno.mp4@17@900]]duvarı rulo fırçayla kendin boyuyorsun. Üstelik bu, Lucia ile ilişkini güçlendiriyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/x_cat_2123070187343638528.mp4@1]][[ov:d2]]{İki:|2.} Araba çalarken arka koltukta saklanan bir kedi [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/x_cat_2123070187343638528.mp4@18.5]]kafana atlayabiliyor. Kurtulmak için tuşa hızlı hızlı basman gerekiyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/dog_b.mp4@0@820]][[ov:d1]]Ve bir numara: Güneş gözlüklü bir köpek jet skiyi kendisi sürüyor, sen de arkasında keyif yapıyorsun. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/footage/gameplay2/clean/dog_b.mp4@6@820]][[ov:none]][[cta]]Sence en çılgını hangisi? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/gta6/v11_cilgin4/nil.mp3",
+ "tag": "GTA 6 • İLK GECE KEŞİFLERİ",
+ "hook_lines": [
+  [
+   "İLK GECEDE BULUNAN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "EN ÇILGIN 4 DETAY",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "EN ÇILGINI",
+  "HANGİSİ?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_en_cilgin_4_detay.mp4"
+}
