@@ -72,3 +72,22 @@ Kaynaklar:
 - https://www.pcgamer.com/games/grand-theft-auto/south-korean-game-rating-board-almost-blocked-gta-6s-release-fearing-its-out-of-context-genital-nudity-would-disrupt-social-order/
 - https://everythingedinburgh.com/games/news/gta-6-turkish-dub-language-support/
 - https://sportskeeda.com/gta/news-turkish-gamers-rally-online-gta-6-support-local-language
+
+## 18 Kasım 18:12
+
+| # | Gelişme | İçerik fırsatı | Durum |
+|---|---|---|---|
+| 1 | **Kick kampanyası ülke kuralları netleşti:** Xbox kodları için Kick'in ülke kısıtı YOK (dünya geneli, Microsoft kuralları geçerli). PS5 kodları ~60 desteklenen ülkedeki PSN hesaplarında çalışıyor (örnekler: ABD, İngiltere, Kanada, Almanya, Fransa, Brezilya, Meksika, Hindistan, Japonya) — **Türkiye'nin listede olup olmadığı doğrulanamadı.** Hariç tutulanlar sadece Kick/Rockstar çalışanları. Kazanana 14 gün içinde uygunluk bilgisi verme süresi var. | Bekleyen "Bedava GTA 6" videosunun ifadesi ("Xbox kodları her yerde geçerli, PS5 kodları bölgeye bağlı") doğru kalıyor | Streamer.guide (Kick şartlarını özetliyor) |
+| 2 | **Sam Houser'dan nadir lansman mesajı:** Rockstar kurucu ortağı oyunculara hoş geldin mesajı yayınladı; çevrimiçi mod / çıkış sonrası içerik duyurusu yok. | "Rockstar'ın patronu yıllar sonra ilk kez konuştu" | Çok kaynak |
+| 3 | **GTA Online (6) lansmanda YOK:** oyun çıkışta tek oyunculu; çevrimiçi için tarih yok, bir rapor 2027 diyor. | "GTA 6'da online yok! Ne zaman gelecek?" — çok aranan soru | Çok kaynak |
+| 4 | **Sensor Tower:** ~1,1 milyar $ ön sipariş geliri tahmini → "tarihin en büyük ön sipariş lansmanı" | Önceki para bulgusuyla birleştirilebilir | Tahmin |
+| 5 | Türk basını: **"Çocuğu olana GTA 6 bedava"** — garip bir kampanya haberi (TGRT, Tamindir, Bursa Hakimiyet; bir Norveç operatörü kampanyası olduğu belirtiliyor) | Komik/ilginç Short konusu — ayrıntı doğrulanmalı | Doğrulanmadı |
+
+Kaynaklar:
+- https://streamer.guide/blog/kick-sunset-reward-case-free-gta-6
+- https://insider-gaming.com/kicks-gta-6-promotion-is-giving-away-thousands-of-free-copies/
+- https://www.xboxachievements.com/news/gta-6-launch-rare-statement-from-rockstar-co-founder-sam-houser/
+- https://aljazeera.com/economy/2026/11/18/gta-6-everything-you-need-to-know-about-the-highly-anticipated-game
+- https://www.pcgamer.com/games/live/news/grand-theft-auto-6-live-launch-coverage/
+- https://www.tgrthaber.com/teknoloji/gta-6-icin-en-garip-kampanya-dogum-yapana-oyun-bedava-3282298
+- https://games.gg/tr/news/norveçli-operatörden-ücretsiz-gta-6-kampanyası/
