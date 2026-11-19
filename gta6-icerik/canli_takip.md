@@ -384,3 +384,6 @@ Kaynaklar:
 - DOĞRU: Merlin'in Kazanı incelemede bir çevre NPC'sinden 2 Türkçe replik duydu; Rockstar: "Evet, belirli zamanlarda Türkçe konuşan bir çevre karakterimiz var." Hastane görevi sahnesinde Türkçe konuşan NPC (Technopat), yayıncı Hype'ın duyduğu "Oğlum tekerlekli sandalye var lan!" repliği (Mynet). Resmî Türkçe dil/altyazı YOK.
 - Kaynaklar: https://www.merlininkazani.com/gta-6-da-turkce-konusan-npc-haber-264438 · https://www.technopat.net/sosyal/konu/gta-vida-turkce-konusan-npc.4207319/ · https://www.mynet.com/gta-6-cikti-sosyal-medya-bu-goruntulerle-doldu-iste-oyundan-ilginc-anlar-turkce-konusan-npc-ler-var-190101303214
 - İçerik fırsatı: "GTA 6'da Türkçe konuşan karakter var! Rockstar doğruladı" — Türk kitlesi için çok güçlü.
+
+## 19 Kas 17:20 TR — Türkçe NPC klip teyidi
+- Hastane görevi, polis çatışması: yaralı NPC "Kurşun yedim!", "Oğlum tekerlekli sandalyeyle geziyor lan!", "Burdalar, yakalayın!" — iki bağımsız klipte (youtube.com/shorts/wYyQID-rST4, youtube.com/shorts/seGB1PdWWAE) whisper ile doğrulandı. Hype (shorts/OLAlop8F5WQ) ve wtcn (watch?v=m-GMC3vuL0Y) yayın tepkileri aynı sahne. Sarı Türkçe altyazılar yükleyenlerin eklemesi (oyunda Türkçe altyazı yok). Rockstar teyidi: Merlin'in Kazanı.
