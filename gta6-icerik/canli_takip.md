@@ -369,3 +369,13 @@ Kaynaklar:
 - https://kotaku.com/live-updates-on-gta-6-the-biggest-launch-in-gaming-history-2000758030
 - https://www.addictinggames.com/news/streamer-finds-first-gta-6-bug
 - https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/
+
+## 19 Kas ~15:00 TR — günlük özet taraması
+1. Satış: Sensor Tower tahmini ilk 24 saatte ~17,07 milyon kopya / ~1,65 milyar $ (GTA V'in 815,7 milyon $ rekorunun 2 katı). Take-Two resmî rakam vermedi. (Pluang, Motilal Oswal/X, Benzinga)
+2. Ultimate Edition tepkisi: 100 $'lık sürümün bonusları hikâyeye bağlı (çoğu Bölüm 2'de, ~25 saat; '95 Cheetah ~60 saat) → "yılın vurgunu" tepkisi. (PlayStation LifeStyle, Yahoo, VGTimes)
+3. Performans: PS5 Pro'da 60 FPS yok; Series S'te 20 FPS altı düşüşler (VGTimes başlıkları).
+4. Yeni easter egg'ler: en yüksek radyo kulesindeki yuvada gerçek yumurta (atınca gizli sahne, IBTimes), Dexter apartmanı (VGTimes), Kelly County'de oyun saatiyle 02:00 sonrası UFO + "The Truth Is Out There" kupası (grandtheft.gg), Cool Dog → Köpek Adası (PlayDay).
+5. Türkiye: gece salonlara akın, Türkçe dil eksikliği en çok eleştirilen konu; Avrupa'da PSN kod/Store sorunları (TGRT, Akşam, Line Haber).
+6. Twitch'te ~2,8 milyon eşzamanlı izleyici (Kotaku).
+
+İçerik fırsatları: "GTA 6'da 4 gizli easter egg (yumurta, UFO, Dexter, Köpek Adası)" · "Ultimate Edition'ı alma! Bonuslar 60 saat sonra açılıyor" · "GTA 6 2 kat rekor kırdı".
