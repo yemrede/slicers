@@ -4,6 +4,7 @@
 
 ## Kanal ve hesaplar
 - YouTube: **@artozlab** (artoZLab) — vidIQ üzerinden bağlı, paylaşım yapabilir
+- TikTok: **artozLab** — vidIQ üzerinden bağlı (19 Kas), paylaşım yapabilir. Ayarlar: herkese açık, yorumlar açık, müzik onayı kabul.
 - Instagram: **@artozlab** (artoZ.lab, profesyonel hesap) — vidIQ üzerinden bağlı, paylaşım yapabilir
 - İçerik alanı: video oyunları, 3D modeller, lifestyle
 
@@ -32,7 +33,7 @@
 | 5 | GTA 6'nın ilk oynanış görüntüleri (kullanıcının verdiği X + YouTube klipleri) | YAYINDA: YouTube Shorts 18 Kas (https://www.youtube.com/watch?v=yt35uvE33xo) |
 | 6 | Bedava GTA 6 kazanmanın 2 resmi yolu (Kick + Twitch, gerçek arayüz + kasa/drop animasyonları; ses: kullanıcının gönderdiği Nil kaydı) | YAYINDA: YouTube Shorts 18 Kas ~21:15 (https://www.youtube.com/watch?v=igoOsIpHxPM) + Instagram Reels (kapaklı) |
 | 7 | GTA 6'da ilk saatler: 4 trick (açılış görevleri, Focus Mode, koyu mavi binalar, NPC dinle; overlay animasyonları; ses: kullanıcının Nil kaydı) | YAYINDA: YouTube Shorts 19 Kas ~00:35 (https://www.youtube.com/watch?v=fBgZ4GDQUSQ) + Instagram Reels |
-| 8 | GTA 6'da ilk gecede bulunan en çılgın 4 detay (terlik+çorap kilidi, ev tamiri, kedi saldırısı, jet ski süren köpek — her biri gerçek oyun içi klip; kuşlar çıkarıldı; ses: ElevenLabs Nil) | Hazır, paylaşım onayı bekleniyor |
+| 8 | GTA 6'da ilk gecede bulunan en çılgın 4 detay (terlik+çorap kilidi, ev tamiri, kedi saldırısı, jet ski süren köpek — her biri gerçek oyun içi klip; kuşlar çıkarıldı; ses: ElevenLabs Nil) | YouTube Shorts 19 Kas 14:00 planlandı (https://www.youtube.com/watch?v=0O-DULBFx2M), Instagram 14:00 planlandı, TikTok hemen paylaşıldı (postId d23d31b9) |
 | 3 | GTA 6'da Türkçe yok – CİMER şikâyeti | Senaryo yazıldı, henüz üretilmedi |
 | 4 | 4.811 gün – 13 yıllık bekleyiş | Senaryo yazıldı, henüz üretilmedi |
 
