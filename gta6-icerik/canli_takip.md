@@ -379,3 +379,8 @@ Kaynaklar:
 6. Twitch'te ~2,8 milyon eşzamanlı izleyici (Kotaku).
 
 İçerik fırsatları: "GTA 6'da 4 gizli easter egg (yumurta, UFO, Dexter, Köpek Adası)" · "Ultimate Edition'ı alma! Bonuslar 60 saat sonra açılıyor" · "GTA 6 2 kat rekor kırdı".
+
+## 19 Kas — Türkçe konuşan NPC (kullanıcı sorusu)
+- DOĞRU: Merlin'in Kazanı incelemede bir çevre NPC'sinden 2 Türkçe replik duydu; Rockstar: "Evet, belirli zamanlarda Türkçe konuşan bir çevre karakterimiz var." Hastane görevi sahnesinde Türkçe konuşan NPC (Technopat), yayıncı Hype'ın duyduğu "Oğlum tekerlekli sandalye var lan!" repliği (Mynet). Resmî Türkçe dil/altyazı YOK.
+- Kaynaklar: https://www.merlininkazani.com/gta-6-da-turkce-konusan-npc-haber-264438 · https://www.technopat.net/sosyal/konu/gta-vida-turkce-konusan-npc.4207319/ · https://www.mynet.com/gta-6-cikti-sosyal-medya-bu-goruntulerle-doldu-iste-oyundan-ilginc-anlar-turkce-konusan-npc-ler-var-190101303214
+- İçerik fırsatı: "GTA 6'da Türkçe konuşan karakter var! Rockstar doğruladı" — Türk kitlesi için çok güçlü.

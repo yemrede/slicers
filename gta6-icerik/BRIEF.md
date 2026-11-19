@@ -11,6 +11,7 @@
 ## Kararlar (kullanıcı onaylı)
 - **Format:** Dikey (Shorts/Reels/TikTok) + kullanıcı isteyince yatay 5 dk YouTube (yatay/ klasörü: build.py + overlay.py).
 - **Dil:** Sadece Türkçe seslendirme.
+- **Telaffuz:** Seslendirmede "GTA 6" her zaman **"Ge Te A altı"** diye okunur (metne böyle yaz, ekranda/altyazıda GTA 6 kalsın: `{Ge Te A altı'da|GTA 6'da}`).
 - **Ses:** ElevenLabs **"Nil - Dynamic, Playful and Clear"** — voice_id `N0wraTTB0pquzsz3DLG8`, model `eleven_v4`, her zaman **tek take** (generations_count=1).
 - **Senaryo yapısı:** 35-45 sn; ilk 1,5 sn kanca; her cümlede sahne değişimi; **son cümle "çünkü..." gibi yarıda kalmaz → izleyiciyi harekete geçiren bir SORU ile biter** ("... Yorumlara yaz!").
 - **Akış:** Senaryo → (gerekirse ses örneği onayı) → seslendirme → montaj → paylaşım metni → **kullanıcının SON ONAYI** → paylaşım. Onaysız asla paylaşılmaz. Paylaşım saatini kullanıcı söyler.
