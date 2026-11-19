@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/shot.mp4@0@1000]][[hook]]{Ge Te A altı'da|GTA 6'da} Türkçe yok sanıyordun, değil mi? [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/hype_band.mp4@0@1100]]Ama oyunda Türkçe konuşan bir karakter var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/hype_band.mp4@7@1100]]Hastanedeki çatışmada yaralı bir adam bağırıyor: [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/radar.mp4@0@1100]][[ov:trnpc]]Kurşun yedim! [[ov:none]][[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/shot.mp4@5@1000]]Az sonra da şunu duyuyorsun: [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/radar.mp4@3.4@1100]][[ov:trnpc]]Oğlum tekerlekli sandalyeyle geziyor lan! [[ov:none]][[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/hype_cam.mp4@6@900]]Yayıncılar bile şoke oldu. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/hype_band.mp4@10@1100]]Üstelik bu bir hata değil. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/shot.mp4@7@1000]][[ov:trrs]]Rockstar, Evet, belirli zamanlarda Türkçe konuşan bir çevre karakterimiz var diyerek doğruladı. [[ov:none]][[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/shot.mp4@1@1000]]Oyunda Türkçe altyazı yok ama Türkçe replik var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/trnpc/clean/hype_band.mp4@12@1100]][[cta]]Sence Rockstar Türk oyunculara bir mesaj mı veriyor? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/gta6/v13_turkce_npc/voice_full.mp3",
+ "tag": "GTA 6 • TÜRKİYE DETAYI",
+ "hook_lines": [
+  [
+   "GTA 6'DA TÜRKÇE",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "KONUŞAN NPC!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.4,
+ "cta_lines": [
+  "ROCKSTAR'DAN",
+  "MESAJ MI?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_turkce_konusan_npc.mp4"
+}

@@ -471,3 +471,10 @@ def ov_e1(fr, t, dur, font):
     _rank(fr, 1, t, font)
     _card(fr, "GECE 02:00'DEN SONRA UFO", "GİZLİ KUPA AÇILIYOR" if t > dur * 0.6 else None, t, font, (60, 110, 230))
 OVERLAYS.update({"e4": ov_e4, "e3": ov_e3, "e2": ov_e2, "e1": ov_e1})
+
+# --- Türkçe NPC videosu ---
+def ov_trnpc(fr, t, dur, font):
+    _card(fr, "ORİJİNAL OYUN SESİ", "HASTANE GÖREVİ" if t > dur * 0.4 else None, t, font, (200, 0, 20))
+def ov_trrs(fr, t, dur, font):
+    _card(fr, "ROCKSTAR DOĞRULADI", "TÜRKÇE KONUŞAN KARAKTER VAR" if t > dur * 0.3 else None, t, font, (40, 150, 90))
+OVERLAYS.update({"trnpc": ov_trnpc, "trrs": ov_trrs})
