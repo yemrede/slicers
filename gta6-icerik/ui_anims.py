@@ -455,3 +455,19 @@ def ov_d1(fr, t, dur, font):
     _card(fr, "JET SKİYİ KÖPEK SÜRÜYOR", None, t, font, (40, 150, 90))
 
 OVERLAYS.update({"d4": ov_d4, "d3": ov_d3, "d2": ov_d2, "d1": ov_d1})
+
+# --- easter egg videosu ---
+def ov_e4(fr, t, dur, font):
+    _rank(fr, 4, t, font)
+    _card(fr, "DEXTER'IN APARTMANI", "ÇATIDA ALETLER VAR" if t > dur * 0.5 else None, t, font, (200, 0, 20))
+def ov_e3(fr, t, dur, font):
+    _rank(fr, 3, t, font)
+    _card(fr, "KULEDEKİ YUMURTA", "AŞAĞI AT = GİZLİ SAHNE" if t > dur * 0.55 else None, t, font, (230, 110, 20))
+def ov_e2(fr, t, dur, font):
+    _rank(fr, 2, t, font); d = ImageDraw.Draw(fr)
+    if t > 0.3: _icon_dog(d, W - 200, 700, 80, t)
+    _card(fr, "COOL DOG + KÖPEK ADASI", "1.000$+ PARA" if t > dur * 0.6 else None, t, font, (40, 150, 90))
+def ov_e1(fr, t, dur, font):
+    _rank(fr, 1, t, font)
+    _card(fr, "GECE 02:00'DEN SONRA UFO", "GİZLİ KUPA AÇILIYOR" if t > dur * 0.6 else None, t, font, (60, 110, 230))
+OVERLAYS.update({"e4": ov_e4, "e3": ov_e3, "e2": ov_e2, "e1": ov_e1})

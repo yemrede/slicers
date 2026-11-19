@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/ufo.mp4@88@1920]][[hook]]GTA 6'da oyuncuların ilk gün bulduğu dört gizli easter egg! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/ufo.mp4@100@1100]]Hepsini bu gece deneyebilirsin. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/dexroof.mp4@18@1100]][[ov:e4]]{Dört:|4.} Vice City'deki bir apartman, Dexter dizisindeki binanın birebir aynısı. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/dexroof.mp4@60@1100]]Çatıya çıkarsan [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/dexroof.mp4@71@1100]]Dexter'ın aletlerini bile buluyorsun. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/egg.mp4@362@1100]][[ov:e3]]{Üç:|3.} Haritadaki en yüksek radyo kulesine tırman. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/egg.mp4@370@1100]]Tepedeki kuş yuvasında gerçek bir paskalya yumurtası var. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/egg.mp4@383@1100]]Aşağı atarsan [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/src/egg.mp4@390@1100]]gizli bir sahne açılıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/dog.mp4@30@1100]][[ov:e2]]{İki:|2.} Denizde mahsur kal ve bekle. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/dog.mp4@54@1100]]Güneş gözlüklü bir köpek jet skiyle gelip [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/dog.mp4@100@1100]]seni gizli Köpek Adası'na götürüyor, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/dog.mp4@204@1100]]üstüne bin dolardan fazla para da buluyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/ufo_car.mp4@3@1100]][[ov:e1]]Ve bir numara: Kelly County'de oyun saatiyle gece {ikiden|02:00'den} sonra farları yanıp sönen bir araba ara. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/ufo.mp4@72@1100]]Işığa doğru yürürsen UFO seni kaçırıyor, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/ufo.mp4@196@1100]]kendini bir tarlada buluyorsun ve gizli bir kupa açılıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/easter/clean/dog.mp4@84@1100]][[ov:none]][[cta]]Sen ilk hangisini deneyeceksin? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/gta6/v12_easter/nil.mp3",
+ "tag": "GTA 6 • GİZLİ SIRLAR",
+ "hook_lines": [
+  [
+   "İLK GÜN BULUNAN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "4 GİZLİ EASTER EGG",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.4,
+ "cta_lines": [
+  "İLK HANGİSİNİ",
+  "DENEYECEKSİN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_4_gizli_easter_egg.mp4"
+}
