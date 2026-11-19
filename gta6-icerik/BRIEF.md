@@ -34,7 +34,7 @@
 | 6 | Bedava GTA 6 kazanmanın 2 resmi yolu (Kick + Twitch, gerçek arayüz + kasa/drop animasyonları; ses: kullanıcının gönderdiği Nil kaydı) | YAYINDA: YouTube Shorts 18 Kas ~21:15 (https://www.youtube.com/watch?v=igoOsIpHxPM) + Instagram Reels (kapaklı) |
 | 7 | GTA 6'da ilk saatler: 4 trick (açılış görevleri, Focus Mode, koyu mavi binalar, NPC dinle; overlay animasyonları; ses: kullanıcının Nil kaydı) | YAYINDA: YouTube Shorts 19 Kas ~00:35 (https://www.youtube.com/watch?v=fBgZ4GDQUSQ) + Instagram Reels |
 | 8 | GTA 6'da ilk gecede bulunan en çılgın 4 detay (terlik+çorap kilidi, ev tamiri, kedi saldırısı, jet ski süren köpek — her biri gerçek oyun içi klip; kuşlar çıkarıldı; ses: ElevenLabs Nil) | YouTube Shorts 19 Kas 14:00 planlandı (https://www.youtube.com/watch?v=0O-DULBFx2M), Instagram 14:00 planlandı, TikTok hemen paylaşıldı (postId d23d31b9) |
-| Y1 | YATAY 5:08 — GTA 6'da İlk Saatlerde BUNU BİL! 14 trick + Bigfoot (Nil/ElevenLabs 2. hesap; lansman günü oynanış klipleri; metin: yatay/ilk_saatler_youtube_metni.md) | Hazır, YouTube paylaşım onayı bekleniyor |
+| Y1 | YATAY 5:08 — GTA 6'da İlk Saatlerde BUNU BİL! 14 trick + Bigfoot (Nil/ElevenLabs 2. hesap; lansman günü oynanış klipleri; metin: yatay/ilk_saatler_youtube_metni.md) | YAYINDA: YouTube (yatay) 19 Kas ~11:25 TR (https://www.youtube.com/watch?v=A46cTBTCkmI) |
 | 3 | GTA 6'da Türkçe yok – CİMER şikâyeti | Senaryo yazıldı, henüz üretilmedi |
 | 4 | 4.811 gün – 13 yıllık bekleyiş | Senaryo yazıldı, henüz üretilmedi |
 
