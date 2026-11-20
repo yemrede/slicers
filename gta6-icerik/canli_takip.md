@@ -387,3 +387,13 @@ Kaynaklar:
 
 ## 19 Kas 17:20 TR — Türkçe NPC klip teyidi
 - Hastane görevi, polis çatışması: yaralı NPC "Kurşun yedim!", "Oğlum tekerlekli sandalyeyle geziyor lan!", "Burdalar, yakalayın!" — iki bağımsız klipte (youtube.com/shorts/wYyQID-rST4, youtube.com/shorts/seGB1PdWWAE) whisper ile doğrulandı. Hype (shorts/OLAlop8F5WQ) ve wtcn (watch?v=m-GMC3vuL0Y) yayın tepkileri aynı sahne. Sarı Türkçe altyazılar yükleyenlerin eklemesi (oyunda Türkçe altyazı yok). Rockstar teyidi: Merlin'in Kazanı.
+
+## 20 Kas — içerik fikri taraması (kullanıcı isteği)
+1. **Paul Walker / Hızlı ve Öfkeli arabası**: Vespucci Adası'nda (Vice Beach yakını, Rialto Adaları) beyaz villanın garajında parlak yeşil "Maibatsu Penumbra FF" — Brian O'Conner'ın yeşil Mitsubishi Eclipse'ine gönderme. Garaj kırılarak girilir; kalıcı sahiplik için araç kayıt sistemi gerekir. Bagajı açınca yılan fırlıyor (Toy Story göndermesi iddiası). Kaynak: BGR (Vice'a atıfla), HotCars, FandomWire, AlcastHQ, GamesHorizon. Supra YOK.
+2. **"GTA 7'den önce…" şakası**: Snapmatic'te "we really got barnyard blue games before RAC7" ve "Race and Chase 7 bir yıl daha ertelendi" postları (Race'n'Chase = ilk GTA'nın çalışma adı). Kaynak: GamesRadar, FandomWire, Archyde.
+3. **Türk detayı #2**: Oto yıkama tabelası "Turkish Car Bath — Come in for intimate Turkish car bath" (Türk hamamı esprisi). Kaynak: teknolojioku, bursadabugun, konhaber.
+4. **Dexter derinleşti**: Dexter'ın apartmanı + jenerik yürüyüş yolu + "Trinity Apartments" (Trinity Katili) + Slice of Life'a benzeyen tekne. (FandomWire)
+5. **Red Dead göndermesi**: Millport'taki Jacob's Tavern'de New Austin'li bir kovboyun hikâyesini anlatan kitap. (Analytics Insight, WikiGTAVI)
+6. **Komik/viral**: protestocuların serbest bıraktığı ayı onlara saldırıyor; uçaklar binaya çarpınca patlamadan kayıyor; fast food yiyince Jason/Lucia kilo alıyor; Leonida "furry-free" ilan edilmiş. (Newsweek, Archyde, Windows Central)
+7. **Para**: Game Rant'e göre Brian'ın deposunda (kod 7700) stash bag + kaydet/yükle hilesi ~8.000$/5 dk (yamalanabilir, doğrulanmadı). Meşru: Bölüm 1'de "Illegal Operations"dan uyuşturucu çalıp Brian/Donnie'ye sat (Vice); Kenton dalışları ~1.400$; Moses'a takipsiz araba ~1.000$+. Uyarı: Bölüm 1'de biriktirilen para bölüm sonunda gidiyor (Timesaver).
+8. **'95 Cheetah** (Ultimate bonusu): Bölüm 5 görevinden sonra Pegassi Residences otoparkında (tek kaynak).
