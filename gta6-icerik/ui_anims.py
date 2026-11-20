@@ -487,3 +487,22 @@ def ov_pwcar(fr, t, dur, font):
 def ov_pwplate(fr, t, dur, font):
     _card(fr, "PLAKA: HAD YOU", "\"NEREDEYSE YAKALIYORDUM\"" if t > dur * 0.4 else None, t, font, (200, 0, 20))
 OVERLAYS.update({"pwloc": ov_pwloc, "pwcar": ov_pwcar, "pwplate": ov_pwplate})
+
+# --- tarayıcıdan GTA 6 videosu ---
+def ov_trcd(fr, t, dur, font):
+    from PIL import ImageFont
+    d = ImageDraw.Draw(fr)
+    rem = max(0, 600 - int(t * 40))
+    s = f"{rem//60:02d}:{rem%60:02d}"
+    f = ImageFont.truetype("/usr/share/fonts/opentype/inter/InterDisplay-Black.otf", 120)
+    w = d.textlength(s, font=f)
+    d.rounded_rectangle(((W - w) / 2 - 40, 330, (W + w) / 2 + 40, 490), 36, fill=(10, 10, 18, 220))
+    d.text(((W - w) / 2, 345), s, font=f, fill=(90, 230, 255))
+    _card(fr, "KONTROL SENDE!", "10 DAKİKA ÜCRETSİZ", t, font, (40, 150, 90))
+def ov_trwarn(fr, t, dur, font):
+    d = ImageDraw.Draw(fr)
+    if t > 0.2: _icon_lock(d, W - 190, 680, 70)
+    _card(fr, "TAKLİT SİTELERE DİKKAT!", "PARA KAPTIRMA" if t > dur * 0.4 else None, t, font, (200, 0, 20))
+def ov_trnot(fr, t, dur, font):
+    _card(fr, "RESMİ DEĞİL", "ROCKSTAR İLE BAĞI YOK", t, font, (230, 110, 20))
+OVERLAYS.update({"trcd": ov_trcd, "trwarn": ov_trwarn, "trnot": ov_trnot})
