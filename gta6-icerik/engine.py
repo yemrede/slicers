@@ -75,23 +75,38 @@ def align(audio, spoken_words):
     import numpy as np
     pcm = subprocess.check_output(["ffmpeg", "-loglevel", "error", "-i", audio, "-f", "f32le", "-ac", "1", "-ar", "16000", "-"])
     arr = np.frombuffer(pcm, dtype=np.float32)
-    segs, _ = model.transcribe(arr, language="tr", word_timestamps=True,
-                               initial_prompt=" ".join(spoken_words))
-    rec = [(w.word.strip(), w.start, w.end) for s in segs for w in s.words]
     a = [norm(w) for w in spoken_words]
-    b = [norm(w[0]) for w in rec]
+    passes = []
+    for prompt in (" ".join(spoken_words), None):
+        segs, _ = model.transcribe(arr, language="tr", word_timestamps=True, initial_prompt=prompt)
+        passes.append([(w.word.strip(), w.start, w.end) for s in segs for w in s.words])
+    def match(rec_):
+        b_ = [norm(w[0]) for w in rec_]
+        t_ = [None] * len(a)
+        for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b_, autojunk=False).get_opcodes():
+            if tag == "equal":
+                for k in range(i2 - i1):
+                    t_[i1 + k] = (rec_[j1 + k][1], rec_[j1 + k][2])
+        return t_
+    t1, t2 = match(passes[0]), match(passes[1])
+    # union of anchors, then keep the longest chain that is increasing in time (LIS)
+    anchors = []
+    for i in range(len(a)):
+        for t in (t1[i], t2[i]):
+            if t is not None:
+                anchors.append((i, t))
+    n = len(anchors)
+    best = [1] * n; prev = [-1] * n
+    for x in range(n):
+        for y in range(x):
+            if anchors[y][0] < anchors[x][0] and anchors[y][1][1] <= anchors[x][1][0] + 0.05 and best[y] + 1 > best[x]:
+                best[x] = best[y] + 1; prev[x] = y
     times = [None] * len(a)
-    sm = difflib.SequenceMatcher(None, a, b, autojunk=False)
-    for tag, i1, i2, j1, j2 in sm.get_opcodes():
-        if tag == "equal":
-            for k in range(i2 - i1):
-                times[i1 + k] = (rec[j1 + k][1], rec[j1 + k][2])
-        elif tag == "replace" and j2 > j1:
-            # distribute recognised span across script span
-            t0, t1 = rec[j1][1], rec[j2 - 1][2]
-            n = i2 - i1
-            for k in range(n):
-                times[i1 + k] = (t0 + (t1 - t0) * k / n, t0 + (t1 - t0) * (k + 1) / n)
+    if n:
+        k = max(range(n), key=lambda q: best[q])
+        while k != -1:
+            i, t = anchors[k]; times[i] = t; k = prev[k]
+    rec = passes[0]
     # interpolate gaps
     dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", audio]).decode())
     for i in range(len(times)):
@@ -161,6 +176,31 @@ def chunk_tokens(tok_times):
         chunks.append(cur)
     return chunks
 
+_readers = {}
+def video_frame(si, key):
+    """key = v:<path>@<start>[@<fg_height>] -> letterboxed 16:9 over blurred bg, read sequentially."""
+    if si not in _readers:
+        parts = key[2:].split("@")
+        path, start = parts[0], float(parts[1]) if len(parts) > 1 else 0.0
+        fh = int(parts[2]) if len(parts) > 2 else 820
+        vf = (f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},format=rgb24") if fh == 0 else (f"fps={FPS},split[a][b];"
+              f"[a]scale=-2:{H},crop={W}:{H},boxblur=24:2,eq=brightness=-0.12[bg];"
+              f"[b]scale=-2:{fh},crop=min(iw\\,{W}):{fh}[fg];"
+              f"[bg][fg]overlay=(W-w)/2:(H-h)/2-40,format=rgb24")
+        _readers[si] = subprocess.Popen(["ffmpeg", "-loglevel", "error", "-ss", str(start), "-i", path,
+                                         "-filter_complex", vf, "-an", "-f", "rawvideo", "-pix_fmt", "rgb24", "-"],
+                                        stdout=subprocess.PIPE)
+        _readers[si]._last = None
+    r = _readers[si]
+    buf = r.stdout.read(W * H * 3)
+    if len(buf) < W * H * 3:
+        if r._last is None:
+            return Image.new("RGB", (W, H))
+        return r._last
+    im = Image.frombytes("RGB", (W, H), buf)
+    r._last = im
+    return im
+
 def render(spec_path):
     spec = json.load(open(spec_path))
     out_dir = os.path.dirname(os.path.abspath(spec_path))
@@ -181,12 +221,15 @@ def render(spec_path):
     rows_ev = {arg: ev_time(wi) for wi, k, arg in events if k == "row"}
     panel_off = next((ev_time(wi) for wi, k, a in events if k == "panel"), 1e9)
     cta_t = next((ev_time(wi) for wi, k, a in events if k == "cta"), 1e9)
+    warn_t = next((ev_time(wi) for wi, k, a in events if k == "warn"), 1e9)
+    ovs = [(ev_time(wi), arg) for wi, k, arg in events if k == "ov"]
+    warn_end = min([st for st, _ in scenes if st > warn_t + 0.05] or [1e9])
     total = dur + 0.35
     nframes = int(total * FPS)
     focus = spec.get("focus", {})
     bgs = {}
     for _, key in scenes:
-        if key not in bgs:
+        if key not in bgs and not str(key).startswith(("v:", "ui:")):
             bgs[key] = load_bg(key, focus.get(str(key), 0.5))
     chunks = chunk_tokens(tokens)
     board = spec.get("board", [])
@@ -208,7 +251,14 @@ def render(spec_path):
         st, key = scenes[si]
         en = scenes[si + 1][0] if si + 1 < len(scenes) else total
         p = min(1, (t - st) / max(0.1, en - st))
-        frame = kenburns(bgs[key], p, zoom_in=(si % 2 == 0))
+        if str(key).startswith("ui:"):
+            import ui_anims
+            frame = ui_anims.render(key[3:], t - st, en - st, {"ui_dir": spec.get("ui_dir", "")},
+                                    lambda size, bold=False: font(FONT_BOLD if bold else FONT_BLACK, size))
+        elif str(key).startswith("v:"):
+            frame = video_frame(si, key)
+        else:
+            frame = kenburns(bgs[key], p, zoom_in=(si % 2 == 0))
         # punch-in on cut
         dt = t - st
         if si > 0 and dt < 0.12:
@@ -254,6 +304,14 @@ def render(spec_path):
                 od.text((x0 + 32, y0 + 18), spec.get("board_title", ""), font=f_title, fill=(255, 255, 255, int(235 * alpha_mul)))
         frame = Image.alpha_composite(frame.convert("RGBA"), ov)
         d = ImageDraw.Draw(frame)
+        # section overlays
+        if ovs:
+            import ui_anims
+            oi = max([i for i, (ot, _) in enumerate(ovs) if ot <= t] or [-1])
+            if oi >= 0 and ovs[oi][1] != "none":
+                oe = ovs[oi + 1][0] if oi + 1 < len(ovs) else total
+                ui_anims.overlay(ovs[oi][1], frame, t - ovs[oi][0], oe - ovs[oi][0],
+                                 lambda size, bold=False: font(FONT_BOLD if bold else FONT_BLACK, size))
         # top tag + progress
         gradient_bar(frame, 0, 0, int(W * min(1, t / total)), 12)
         tag = spec.get("tag", "")
@@ -269,8 +327,20 @@ def render(spec_path):
             yy = 190
             for li, (line, colr) in enumerate(hook_lines):
                 f = font(FONT_BLACK, int(92 * sc))
+                lw = text_w(d, line, f)
+                if lw > W - 90:
+                    f = font(FONT_BLACK, int(92 * sc * (W - 90) / lw))
                 draw_center(d, yy, line, f, tuple(colr), stroke=10)
                 yy += int(108 * sc)
+        # warning card
+        if warn_t <= t < warn_end and spec.get("warn_lines"):
+            k = min(1, (t - warn_t) / 0.18)
+            f = font(FONT_BLACK, int(76 * (0.85 + 0.15 * k)))
+            lines = spec["warn_lines"]; y = 560
+            mw = max(text_w(d, l, f) for l in lines)
+            d.rounded_rectangle([(W - mw) // 2 - 40, y - 26, (W + mw) // 2 + 40, y + 92 * len(lines) + 14], 36, fill=(200, 0, 20), outline=YELLOW, width=8)
+            for l in lines:
+                w = text_w(d, l, f); d.text(((W - w) // 2, y), l, font=f, fill=WHITE); y += 92
         # CTA
         if t >= cta_t:
             k = min(1, (t - cta_t) / 0.2)
