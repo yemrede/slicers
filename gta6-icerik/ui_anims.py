@@ -478,3 +478,12 @@ def ov_trnpc(fr, t, dur, font):
 def ov_trrs(fr, t, dur, font):
     _card(fr, "ROCKSTAR DOĞRULADI", "TÜRKÇE KONUŞAN KARAKTER VAR" if t > dur * 0.3 else None, t, font, (40, 150, 90))
 OVERLAYS.update({"trnpc": ov_trnpc, "trrs": ov_trrs})
+
+# --- Paul Walker videosu ---
+def ov_pwloc(fr, t, dur, font):
+    _card(fr, "VESPUCCI ADASI", "RIALTO ADALARI • BEYAZ EV" if t > dur * 0.35 else None, t, font, (40, 110, 200))
+def ov_pwcar(fr, t, dur, font):
+    _card(fr, "MAIBATSU PENUMBRA", "= BRIAN'IN ECLIPSE'İ" if t > dur * 0.4 else None, t, font, (40, 150, 90))
+def ov_pwplate(fr, t, dur, font):
+    _card(fr, "PLAKA: HAD YOU", "\"NEREDEYSE YAKALIYORDUM\"" if t > dur * 0.4 else None, t, font, (200, 0, 20))
+OVERLAYS.update({"pwloc": ov_pwloc, "pwcar": ov_pwcar, "pwplate": ov_pwplate})

@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@40@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} Paul Walker'a gizli bir saygı duruşu var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@46@1100]]Hızlı ve Öfkeli'nin ilk filminde Brian O'Conner'ın kullandığı o yeşil araba oyunda saklı. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/dpj.mp4@140@1100]][[ov:pwloc]]Vice City ile Vice Beach arasındaki Rialto Adaları'na git [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/dpj.mp4@147@1100]]ve Vespucci Adası'na geç. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/clean/guide.mp4@4@1100]]Beyaz evin arka bahçesinden gir, [[ov:none]][[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@34@1100]]garajın kapısını aç ve işte karşında! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@76@1100]][[ov:pwcar]]Oyundaki adı Maibatsu Penumbra ama tasarımı birebir Brian'ın Eclipse'i. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@122@1000]][[ov:none]]Plakasında bile {\"HAD YOU\"|\"HAD YOU\"} yazıyor; filmin sonundaki efsane \"Neredeyse yakalıyordum\" sahnesine gönderme. [[ov:none]][[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/dpj.mp4@174@1100]]Camı kır, arabayı al [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@170@1100]]ve kalıcı olsun diye kaydettirmeyi unutma. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/paulw/src/eclipse4k.mp4@150@1100]][[cta]]Sen bu arabayla ilk nereye gidersin? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/gta6/v14_paulwalker/nil.mp3",
+ "tag": "GTA 6 • PAUL WALKER'A SAYGI",
+ "hook_lines": [
+  [
+   "PAUL WALKER'IN ARABASI",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "GTA 6'DA SAKLI",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.6,
+ "cta_lines": [
+  "İLK NEREYE",
+  "GİDERSİN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_paul_walker_arabasi_ses.mp4"
+}
