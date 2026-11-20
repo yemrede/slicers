@@ -397,3 +397,9 @@ Kaynaklar:
 6. **Komik/viral**: protestocuların serbest bıraktığı ayı onlara saldırıyor; uçaklar binaya çarpınca patlamadan kayıyor; fast food yiyince Jason/Lucia kilo alıyor; Leonida "furry-free" ilan edilmiş. (Newsweek, Archyde, Windows Central)
 7. **Para**: Game Rant'e göre Brian'ın deposunda (kod 7700) stash bag + kaydet/yükle hilesi ~8.000$/5 dk (yamalanabilir, doğrulanmadı). Meşru: Bölüm 1'de "Illegal Operations"dan uyuşturucu çalıp Brian/Donnie'ye sat (Vice); Kenton dalışları ~1.400$; Moses'a takipsiz araba ~1.000$+. Uyarı: Bölüm 1'de biriktirilen para bölüm sonunda gidiyor (Timesaver).
 8. **'95 Cheetah** (Ultimate bonusu): Bölüm 5 görevinden sonra Pegassi Residences otoparkında (tek kaynak).
+
+## 20 Kas — "GTA 6'yı tarayıcıdan sırayla oynatan site" (kullanıcının paylaştığı reel: instagram.com/reel/Df7C8N9tvgH, @tuncay.lore)
+- Site: **jogargta.com** (Brezilya, "resmî olmayan hayran sitesi, Rockstar/Take-Two ile bağı yok"). Bir konsoldan (bir kaynağa göre Xbox) GTA 6 yayını açıyorlar; izleyiciler kuyruğa girip **ücretsiz 10 dk** kontrol alıyor. Reel'de görülen: ücretli "pass" R$25 = 15 dk, R$50 = 20 dk (LivePix/bağış), "Regular 868 / Prioritária 11" kuyruk, kontrol pratik modu, kick yayını. Kuyruklar çok uzun (viral bir postta 10 dk için 2 gün bekleme). Kaynak: gameoverdrive.com.br, ggames.com.br, x.com/Chief117Br.
+- DİKKAT: benzer adlı **jogagta.com** (r yok) ücretli "pass" satıyor → taklit/dolandırıcılık riski.
+- Resmî bulut seçenekleri: Xbox Cloud Gaming GTA 6'yı **sadece Xbox konsollarına** (One/Series) akıtıyor; tarayıcı/PC/telefon yok. PS Plus Premium bulut YOK. GeForce Now YOK. (Yahoo/remote play, endgametools, caniplay). Türkiye'de Xbox Cloud zaten resmî olarak yok (önceki not).
+- İçerik fikri: "Konsolun yok mu? Brezilyalılar GTA 6'yı tarayıcıdan sırayla oynatıyor" + "dikkat: taklit siteler para istiyor" + "resmî yol yok".
