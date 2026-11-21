@@ -506,3 +506,15 @@ def ov_trwarn(fr, t, dur, font):
 def ov_trnot(fr, t, dur, font):
     _card(fr, "RESMİ DEĞİL", "ROCKSTAR İLE BAĞI YOK", t, font, (230, 110, 20))
 OVERLAYS.update({"trcd": ov_trcd, "trwarn": ov_trwarn, "trnot": ov_trnot})
+
+# --- geri dönen karakterler ---
+def ov_dn1(fr, t, dur, font):
+    _rank(fr, 1, t, font)
+    _card(fr, "NİKO BELLİC", "GTA 4'ÜN ANA KARAKTERİ" if t > dur * 0.35 else None, t, font, (200, 0, 20))
+def ov_dn2(fr, t, dur, font):
+    _rank(fr, 2, t, font)
+    _card(fr, "JIMMY DE SANTA", "55.275 TAKİPÇİ" if t > dur * 0.35 else None, t, font, (230, 110, 20))
+def ov_dn3(fr, t, dur, font):
+    _rank(fr, 3, t, font)
+    _card(fr, "VALENTINA", "GTA ONLINE'DAN" if t > dur * 0.35 else None, t, font, (150, 60, 200))
+OVERLAYS.update({"dn1": ov_dn1, "dn2": ov_dn2, "dn3": ov_dn3})

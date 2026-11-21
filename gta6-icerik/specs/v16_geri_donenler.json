@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/niko.mp4@105.5@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} üç eski tanıdık geri döndü! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/niko.mp4@108.6@1100]][[ov:dn1]]Birincisi Niko Bellic! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/niko.mp4@237.3@1100]]{GTA dört'ün|GTA 4'ün} efsanesi artık saçları ağarmış bir ağır abi. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/niko.mp4@119.8@1100]][[ov:none]]Kartelin adına gelip mafya babasından hesap soruyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/jimmy.mp4@122@1100]][[ov:dn2]]İkincisi Jimmy De Santa! Michael'ın oğlu, {elli beş bin|55 bin} takipçili bir fenomen olmuş. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/jimmy.mp4@134@1100]][[ov:none]]Gece kulübünde VIP masa istiyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/valentina.mp4@104@1100]][[ov:dn3]]Üçüncüsü Valentina! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/valentina.mp4@113@1100]]GTA Online'dan tanıdığın Valentina, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/valentina.mp4@131@1100]][[ov:none]]Jason'ın kapısını çalıp iş teklif ediyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/clean/jimmy.mp4@139.5@1100]][[cta]]Sence bir sonraki oyunda kim geri dönmeli? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/donen/v/nil.mp3",
+ "tag": "SPOILER • GTA 6",
+ "hook_lines": [
+  [
+   "3 ESKİ TANIDIK",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "GERİ DÖNDÜ!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.0,
+ "cta_lines": [
+  "KİM GERİ",
+  "DÖNMELİ?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_geri_donenler.mp4"
+}
