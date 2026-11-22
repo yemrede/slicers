@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/concon.mp4@115@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} {Bölüm Bir'de|Bölüm 1'de} kaçırırsan bir daha asla yapamayacağın üç şey var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/peggy.mp4@8@1100]][[ov:k1]]Birincisi: komşun Shirley. Jason'ın evinin hemen yanındaki bu teyze senden rom istiyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/concon.mp4@77@1100]]İçki dükkânına gidip romunu getiriyorsun. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/concon.mp4@145@1100]][[ov:k2]]İkincisi: ertesi akşam Shirley yeni bir iş veriyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/peggy.mp4@236@1100]]Komşusu Peggy'nin engelli scooter'ını çalmak! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/concon.mp4@160@1100]][[ov:none]]Peggy arkandan bağırıyor ama koşamıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/peggy.mp4@332@1100]][[ov:kwarn]]Dikkat! Tourist Trap görevine başladığın an Shirley'nin bu iki işi sonsuza dek kayboluyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/medit.mp4@19@1100]][[ov:k3]]Üçüncüsü: Down to Earth görevinden sonraki sabah mutfakta Lucia'yla konuş. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/medit.mp4@28@1100]]Seni balkonda meditasyona davet ediyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/medit.mp4@38@1100]]Bu meditasyon sadece {Bölüm Bir'de|Bölüm 1'de} var. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/clean/peggy.mp4@351@1100]][[ov:none]][[cta]]Sen bunlardan kaçını yaptın? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/v/nil.mp3",
+ "tag": "BÖLÜM 1 • KAÇIRMA #1",
+ "hook_lines": [
+  [
+   "BÖLÜM 1'DE",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "SAKIN KAÇIRMA!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "SEN KAÇINI",
+  "YAPTIN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_bolum1_kacirma1.mp4"
+}
