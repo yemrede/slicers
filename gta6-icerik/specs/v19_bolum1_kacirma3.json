@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/obj.mp4@0.2@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} {Bölüm Bir'de|Bölüm 1'de} çoğu oyuncunun fark etmediği üç sır var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/boat.mp4@3@1100]][[ov:s1]]Birincisi: Jason'ın evinin yanındaki eski tekne. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/boat.mp4@38@1100]]Üstüne tırman ve kaptan köşkündeki ekrana bak. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/gps.mp4@1.8@1100]]Ekranda {GTA Beş'in|GTA 5'in} haritası var! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/boat.mp4@66@1100]]Bu teknenin Michael'ın teknesi olduğu konuşuluyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/sink.mp4@2@1100]][[ov:s2]]İkincisi: Mandy'nin lavabosu. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/sink.mp4@8@1100]]Pipework görevinde tıkalı lavabodan tuhaf bir şey çıkıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/obj.mp4@2.6@1100]]Mandy onu hemen geri alıyor ve kirayı anında ödüyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/sink.mp4@28@1100]]Oyuncular bunun bir insan parmağı olduğunu düşünüyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/books.mp4@11@1100]][[ov:s3]]Üçüncüsü: Jason'ın evindeki beş dergi ve kitap. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/books.mp4@26@1100]]Bunları sadece {Bölüm Bir'de|Bölüm 1'de} toplayabiliyorsun [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/books.mp4@71@1100]]ve yüzde yüz tamamlamaya sayılıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/clean/obj.mp4@3.2@1100]][[ov:none]][[cta]]Sence Mandy'nin lavabosundan ne çıktı? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/v/nil.mp3",
+ "tag": "BÖLÜM 1 • KAÇIRMA #3",
+ "hook_lines": [
+  [
+   "BÖLÜM 1'İN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "GİZLİ SIRLARI",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "LAVABODAN",
+  "NE ÇIKTI?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_bolum1_kacirma3.mp4"
+}

@@ -550,3 +550,15 @@ def ov_gwarn(fr, t, dur, font):
     if t > 0.2: _icon_lock(d, W // 2, 640, 80)
     _card(fr, "BÖLÜM 2'DE SİLİNİYOR!", "CÜZDAN + EV ZULASI" if t > dur * 0.3 else None, t, font, (200, 0, 20))
 OVERLAYS.update({"g1": ov_g1, "g2": ov_g2, "g3": ov_g3, "gwarn": ov_gwarn})
+
+# --- Bölüm 1 kaçırma #3 ---
+def ov_s1(fr, t, dur, font):
+    _rank(fr, 1, t, font)
+    _card(fr, "EKRANDA GTA 5 HARİTASI", "MICHAEL'IN TEKNESİ Mİ?" if t > dur * 0.35 else None, t, font, (60, 110, 230))
+def ov_s2(fr, t, dur, font):
+    _rank(fr, 2, t, font)
+    _card(fr, "MANDY'NİN LAVABOSU", "BU BİR PARMAK MI?" if t > dur * 0.35 else None, t, font, (200, 0, 20))
+def ov_s3(fr, t, dur, font):
+    _rank(fr, 3, t, font)
+    _card(fr, "5 DERGİ VE KİTAP", "SADECE BÖLÜM 1'DE" if t > dur * 0.35 else None, t, font, (230, 110, 20))
+OVERLAYS.update({"s1": ov_s1, "s2": ov_s2, "s3": ov_s3})
