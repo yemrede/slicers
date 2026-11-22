@@ -534,3 +534,19 @@ def ov_k3(fr, t, dur, font):
     _rank(fr, 3, t, font)
     _card(fr, "BALKON MEDİTASYONU", "SADECE BÖLÜM 1'DE" if t > dur * 0.35 else None, t, font, (60, 110, 230))
 OVERLAYS.update({"k1": ov_k1, "k2": ov_k2, "kwarn": ov_kwarn, "k3": ov_k3})
+
+# --- Bölüm 1 kaçırma #2 ---
+def ov_g1(fr, t, dur, font):
+    _rank(fr, 1, t, font)
+    _card(fr, "PAPAĞANIN ZULASI", "2.361$" if t > dur * 0.35 else None, t, font, (40, 150, 90))
+def ov_g2(fr, t, dur, font):
+    _rank(fr, 2, t, font)
+    _card(fr, "DONNIE'NİN .38'İ", "SADECE BU GÖREVDE" if t > dur * 0.35 else None, t, font, (200, 0, 20))
+def ov_g3(fr, t, dur, font):
+    _rank(fr, 3, t, font)
+    _card(fr, "PARANI KURTAR!", "AİLE BİRİKİM HESABI" if t > dur * 0.35 else None, t, font, (230, 110, 20))
+def ov_gwarn(fr, t, dur, font):
+    d = ImageDraw.Draw(fr)
+    if t > 0.2: _icon_lock(d, W // 2, 640, 80)
+    _card(fr, "BÖLÜM 2'DE SİLİNİYOR!", "CÜZDAN + EV ZULASI" if t > dur * 0.3 else None, t, font, (200, 0, 20))
+OVERLAYS.update({"g1": ov_g1, "g2": ov_g2, "g3": ov_g3, "gwarn": ov_gwarn})

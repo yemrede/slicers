@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/parrot.mp4@44@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} {Bölüm Bir|Bölüm 1} bitmeden bu ganimetleri almazsan sonsuza dek kaybedersin! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/parrot.mp4@15@1100]][[ov:g1]]Birincisi: konuşan papağanın zulası. Shirley için rom almaya gittiğin içki dükkânının arkası [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/parrot.mp4@36@1100]]aslında egzotik hayvan kaçakçılarının yeri. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/parrot.mp4@79@1100]]Arka bahçedeki papağanla konuş, sana jeneratörün yanındaki parayı söylüyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/parrot.mp4@62@1100]]İçerideki kasayla birlikte {iki bin üç yüz doları|2.300 doları} geçiyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/donnie.mp4@20@1100]][[ov:g2]]İkincisi: Donnie'nin özel tabancası. Don Gone görevinde Donnie'nin karavanının önündeki [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/donnie.mp4@27@1100]]kırmızı arabanın bagajını aç. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/donnie.mp4@78@1100]]Bu görevden sonra o arabaya bir daha ulaşamıyorsun. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@377@1100]][[ov:g3]]Üçüncüsü ve en önemlisi: paran! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@357@1100]]Tourist Trap'e başlamadan önce [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@386@1100]]paranı aile birikim hesabına yatır. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@400@1100]][[ov:gwarn]]Cüzdanındaki ve evdeki para {Bölüm İki'de|Bölüm 2'de} siliniyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@338@1100]][[ov:none]][[cta]]Sen paranı kurtardın mı? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/v/nil.mp3",
+ "tag": "BÖLÜM 1 • KAÇIRMA #2",
+ "hook_lines": [
+  [
+   "BÖLÜM 1 BİTMEDEN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "BUNLARI AL!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "PARANI",
+  "KURTARDIN MI?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_bolum1_kacirma2.mp4"
+}
