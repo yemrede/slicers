@@ -1,0 +1,81 @@
+{
+ "out": "GTA6_Bolum1_Kacirma_Yatay.mp4",
+ "tag": "GTA 6 • BÖLÜM 1 REHBERİ",
+ "parts": [
+  {
+   "spec": "extra_spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/yatay2/extra.mp3",
+   "align": "extra_align.json",
+   "t0": 0,
+   "t1": 10.81
+  },
+  {
+   "spec": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/v/spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/v/nil.mp3",
+   "align": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1/v/align.json",
+   "card": [
+    1,
+    "YAN GÖREVLER"
+   ],
+   "cut_cta": true
+  },
+  {
+   "spec": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/v/spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/v/nil.mp3",
+   "align": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/v/align.json",
+   "card": [
+    2,
+    "GİZLİ GANİMETLER"
+   ],
+   "cut_cta": true
+  },
+  {
+   "spec": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/v/spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/v/nil.mp3",
+   "align": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1c/v/align.json",
+   "card": [
+    3,
+    "GİZLİ SIRLAR"
+   ],
+   "cut_cta": true
+  },
+  {
+   "spec": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/v/spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/v/nil.mp3",
+   "align": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/v/align.json",
+   "card": [
+    4,
+    "LUCIA'NIN GÖNLÜ"
+   ],
+   "cut_cta": true
+  },
+  {
+   "spec": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/v/spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/v/nil.mp3",
+   "align": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/v/align.json",
+   "card": [
+    5,
+    "ARABA VE PARA HATASI"
+   ],
+   "cut_cta": true
+  },
+  {
+   "spec": "extra_spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/yatay2/extra.mp3",
+   "align": "extra_align.json",
+   "t0": 10.81,
+   "t1": 33.79,
+   "card": [
+    null,
+    "BONUS: 3 ÖZEL EŞYA"
+   ]
+  },
+  {
+   "spec": "extra_spec.json",
+   "voice": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/yatay2/extra.mp3",
+   "align": "extra_align.json",
+   "t0": 33.79,
+   "t1": null
+  }
+ ]
+}
