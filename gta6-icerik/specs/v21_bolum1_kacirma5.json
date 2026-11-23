@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch2.mp4@153@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} {Bölüm İki'ye|Bölüm 2'ye} geçmeden önce bu üç hatayı sakın yapma! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@412@1100]][[ov:c1]]Birincisi: Jason'ın arabasına para harcama. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1b/clean/miss.mp4@418@1100]]{Bölüm İki'de|Bölüm 2'de} bu araba elinden gidiyor, yaptığın modifiyeler de çöpe gidiyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch2.mp4@92@1100]][[ov:c2]]İkincisi: Moses'a götürdüğün ilk araba bedava kaydediliyor, o yüzden en iyisini seç! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch2.mp4@116@1100]]Mesela Paul Walker'ın arabası. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch2.mp4@153@1100]]Sonradan kaydettirirsen {altı bin yedi yüz elli dolar|6.750 dolar} ödüyorsun. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch1.mp4@35@1100]][[ov:c3]]Üçüncüsü: aile hesabına sığmayan paranı silaha harca. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch1.mp4@48@1100]]Satın aldığın silahlar ölsen bile kaybolmuyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/clean/ch2.mp4@31@1100]][[ov:none]][[cta]]Sen Moses'a hangi arabayı götürdün? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1e/v/nil.mp3",
+ "tag": "BÖLÜM 1 • KAÇIRMA #5",
+ "hook_lines": [
+  [
+   "BÖLÜM 2'DEN ÖNCE",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "BU HATAYI YAPMA!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "HANGİ ARABAYI",
+  "GÖTÜRDÜN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_bolum1_kacirma5.mp4"
+}

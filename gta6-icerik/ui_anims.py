@@ -576,3 +576,10 @@ OVERLAYS.update({
  "lbonus": lambda fr, t, dur, font: _card(fr, "BONUS: EVİ TAMİR ET", "LUCIA FARK EDİYOR" if t > dur * 0.3 else None, t, font, (230, 110, 20)),
  "lwarn": lambda fr, t, dur, font: _card(fr, "LUCIA GELİNCE KAYBOLUR!", "SOYGUNLA TELAFİ ET" if t > dur * 0.45 else None, t, font, (200, 0, 20)),
 })
+
+# --- Bölüm 1 kaçırma #5 ---
+OVERLAYS.update({
+ "c1": lambda fr, t, dur, font: (_rank(fr, 1, t, font), _card(fr, "JASON'IN ARABASI GİDİYOR", "MODİFİYEYE PARA HARCAMA" if t > dur * 0.3 else None, t, font, (200, 0, 20))),
+ "c2": lambda fr, t, dur, font: (_rank(fr, 2, t, font), _card(fr, "İLK KAYIT BEDAVA", "SONRA 6.750$" if t > dur * 0.4 else None, t, font, (40, 150, 90))),
+ "c3": lambda fr, t, dur, font: (_rank(fr, 3, t, font), _card(fr, "ARTAN PARAYA SİLAH AL", "SATIN ALINAN SİLAH KALIR" if t > dur * 0.3 else None, t, font, (60, 110, 230))),
+})
