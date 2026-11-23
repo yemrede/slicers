@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/early.mp4@31@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} Tommy Vercetti yok… ama malikanesi hâlâ orada olabilir! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/early.mp4@1@1100]][[ov:vloc]]Vice City'nin karşısındaki Starfish Island'a git. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/early.mp4@28@1100]][[ov:none]]Sütunlu giriş, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@54@1100]]dev havuz, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@69@1100]]deniz kenarında iskele… [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@216@1100]]Vice City'deki malikanenin aynısı! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/early.mp4@20@1100]][[ov:vcop]]Ama dikkat: arazide dolaşmaya başlarsan polis hemen geliyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@198@1100]][[ov:vcar]]Kapının önündeki leopar desenli süper arabaya bin, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/msg.mp4@0.5@1100]]oyun sana özel bir araç bulduğunu söylüyor. Sakın modifiye etme, bazı parçaları bir daha geri gelmiyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@160@1100]][[ov:vgar]]Garajda da başka süper arabalar seni bekliyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/clean/details.mp4@216.5@1100]][[ov:none]][[cta]]Sence bu gerçekten Tommy'nin evi mi? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/vercetti/v/nil.mp3",
+ "tag": "GTA 6 • VICE CITY",
+ "hook_lines": [
+  [
+   "TOMMY VERCETTİ'NİN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "MALİKANESİ!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "TOMMY'NİN EVİ",
+  "Mİ?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_vercetti_malikane.mp4"
+}

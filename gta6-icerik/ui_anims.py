@@ -583,3 +583,11 @@ OVERLAYS.update({
  "c2": lambda fr, t, dur, font: (_rank(fr, 2, t, font), _card(fr, "İLK KAYIT BEDAVA", "SONRA 6.750$" if t > dur * 0.4 else None, t, font, (40, 150, 90))),
  "c3": lambda fr, t, dur, font: (_rank(fr, 3, t, font), _card(fr, "ARTAN PARAYA SİLAH AL", "SATIN ALINAN SİLAH KALIR" if t > dur * 0.3 else None, t, font, (60, 110, 230))),
 })
+
+# --- Vercetti malikanesi ---
+OVERLAYS.update({
+ "vloc": lambda fr, t, dur, font: _card(fr, "STARFISH ISLAND", "VICE CITY'NİN KARŞISI" if t > dur * 0.3 else None, t, font, (60, 110, 230)),
+ "vcop": lambda fr, t, dur, font: _card(fr, "DİKKAT: POLİS GELİYOR!", "ARANMA YILDIZI" if t > dur * 0.3 else None, t, font, (200, 0, 20)),
+ "vcar": lambda fr, t, dur, font: _card(fr, "ÖZEL ARAÇ", "MODİFİYE ETME!" if t > dur * 0.3 else None, t, font, (230, 110, 20)),
+ "vgar": lambda fr, t, dur, font: _card(fr, "GARAJDA SÜPER ARABALAR", None, t, font, (40, 150, 90)),
+})
