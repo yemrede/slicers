@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@68@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} Lucia hapisten çıkmadan önce yapman gereken beş iş var. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@69.5@1100]]Hepsini yaparsan ilişkiniz dört kalpten üçle başlıyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@58@1100]]Lucia arayıp çıkacağını söylediğinde hemen cezaevine gitme. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@23@1100]][[ov:l1]]Önce berbere git, Jason'a yeni bir saç kesimi yaptır. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@27@1100]][[ov:l2]]Sonra kuyumcudan Lucia'ya özel bir kolye ısmarla, bu kolye ileride önemli. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/flowers.mp4@62@1100]][[ov:l3]]Çiçekçiden gül sipariş et, eve teslim ediliyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@36@1100]][[ov:l4]]Marketten alışveriş yapıp buzdolabını doldur. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/gifts.mp4@44.5@1100]][[ov:l5]]Son olarak Lucia'nın kıyafetlerini arkadaşı Andy'den al ve bagajda tut. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/fix.mp4@125@1100]][[ov:lbonus]]Bonus: evi tamir edersen [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/fixbonus.mp4@265@1100]]Lucia merdivenlerin artık gıcırdamadığını fark ediyor! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/fixbonus.mp4@323.5@1100]][[ov:lwarn]]Dikkat: Lucia eve gelince bu işler kayboluyor. Kaçırırsan da üzülme, birlikte soygun yaptıkça kalpler yine artıyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/clean/reunite.mp4@184@1100]][[ov:none]][[cta]]Sen Lucia'ya hangi hediyeyi aldın? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/ch1d/v/nil.mp3",
+ "tag": "BÖLÜM 1 • KAÇIRMA #4",
+ "hook_lines": [
+  [
+   "LUCIA ÇIKMADAN",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "BUNLARI YAP!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "HANGİ HEDİYEYİ",
+  "ALDIN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_bolum1_kacirma4.mp4"
+}

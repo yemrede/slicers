@@ -562,3 +562,17 @@ def ov_s3(fr, t, dur, font):
     _rank(fr, 3, t, font)
     _card(fr, "5 DERGİ VE KİTAP", "SADECE BÖLÜM 1'DE" if t > dur * 0.35 else None, t, font, (230, 110, 20))
 OVERLAYS.update({"s1": ov_s1, "s2": ov_s2, "s3": ov_s3})
+
+# --- Bölüm 1 kaçırma #4 (Lucia) ---
+def _lstep(fr, t, dur, font, n, title, sub, col):
+    _rank(fr, n, t, font)
+    _card(fr, title, sub if t > dur * 0.3 else None, t, font, col)
+OVERLAYS.update({
+ "l1": lambda fr, t, dur, font: _lstep(fr, t, dur, font, 1, "BERBER", "YENİ SAÇ KESİMİ", (60, 110, 230)),
+ "l2": lambda fr, t, dur, font: _lstep(fr, t, dur, font, 2, "ÖZEL KOLYE", "SONRA ÖNEMLİ!", (230, 110, 20)),
+ "l3": lambda fr, t, dur, font: _lstep(fr, t, dur, font, 3, "GÜL SİPARİŞİ", "EVE TESLİM", (200, 0, 80)),
+ "l4": lambda fr, t, dur, font: _lstep(fr, t, dur, font, 4, "MARKET", "BUZDOLABINI DOLDUR", (40, 150, 90)),
+ "l5": lambda fr, t, dur, font: _lstep(fr, t, dur, font, 5, "KIYAFETLER", "ANDY'DEN AL, BAGAJA", (150, 60, 200)),
+ "lbonus": lambda fr, t, dur, font: _card(fr, "BONUS: EVİ TAMİR ET", "LUCIA FARK EDİYOR" if t > dur * 0.3 else None, t, font, (230, 110, 20)),
+ "lwarn": lambda fr, t, dur, font: _card(fr, "LUCIA GELİNCE KAYBOLUR!", "SOYGUNLA TELAFİ ET" if t > dur * 0.45 else None, t, font, (200, 0, 20)),
+})
