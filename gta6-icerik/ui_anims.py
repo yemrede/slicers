@@ -591,3 +591,13 @@ OVERLAYS.update({
  "vcar": lambda fr, t, dur, font: _card(fr, "ÖZEL ARAÇ", "MODİFİYE ETME!" if t > dur * 0.3 else None, t, font, (230, 110, 20)),
  "vgar": lambda fr, t, dur, font: _card(fr, "GARAJDA SÜPER ARABALAR", None, t, font, (40, 150, 90)),
 })
+
+# --- Vice City portalı ---
+OVERLAYS.update({
+ "p1": lambda fr, t, dur, font: (_rank(fr, 1, t, font), _card(fr, "KEY LENTO RADYO KULESİ", "ŞALTERİ İNDİR" if t > dur * 0.3 else None, t, font, (60, 110, 230))),
+ "p2": lambda fr, t, dur, font: (_rank(fr, 2, t, font), _card(fr, "12 TRAFO = HİLE KODU", "LIFE IS PASSING ME BY" if t > dur * 0.25 else None, t, font, (230, 110, 20))),
+ "p2b": lambda fr, t, dur, font: _card(fr, "HIZLI SEYAHAT YASAK!", "SIRAYLA, ARABAYLA" if t > dur * 0.3 else None, t, font, (200, 0, 20)),
+ "p3": lambda fr, t, dur, font: (_rank(fr, 3, t, font), _card(fr, "REAKTÖR 2 • 19:00-06:00", "LEVYEYİ ÇEK" if t > dur * 0.3 else None, t, font, (150, 60, 200))),
+ "p4": lambda fr, t, dur, font: _card(fr, "MALIBU CLUB • PS2", "TOMMY VERCETTİ OLDUN!" if t > dur * 0.3 else None, t, font, (200, 0, 120)),
+ "p5": lambda fr, t, dur, font: _card(fr, "ÖDÜL: GÖMLEK + MOTOR", "AMERICAN GLORY" if t > dur * 0.3 else None, t, font, (40, 150, 90)),
+})

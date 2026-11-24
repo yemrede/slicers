@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/shir.mp4@2@1100]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} eski Vice City'ye açılan gizli bir portal bulundu! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/loot.mp4@22@1100]][[ov:p1]]Key Lento'daki radyo kulesine tırman, şalteri indir. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/loot.mp4@92@1100]][[ov:p2]]Haritadaki {on iki|12} trafoda harfler var, [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/loot.mp4@148@1100]]birleşince Vice City'nin hile kodu çıkıyor: \"Life is passing me by\"! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/loot.mp4@176@1100]][[ov:p2b]]{On iki|12} trafoya sırayla, hızlı seyahat kullanmadan git. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/loot.mp4@346@1100]][[ov:p3]]Sonra gece {Reaktör İki'ye|Reaktör 2'ye} git [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/shir.mp4@5@1100]]ve levyeyi çek. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/shir.mp4@25@1100]][[ov:p4]]Portaldan geçince {PS iki|PS2} grafikli Tommy Vercetti oluyorsun ve Malibu Club'dasın! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/afg.mp4@29@1100]][[ov:none]]Üst katta [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/shir.mp4@105@1100]]Kent Paul seni bekliyor. [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/afg.mp4@77@1100]][[ov:p5]]Dönüşte Tommy'nin gömleği ve motoru senin! [[s:v:/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/clean/shir.mp4@236@1100]][[ov:none]][[cta]]Sen bu portaldan geçtin mi? Yorumlara yaz!",
+ "voice_file": "/tmp/claude-0/-home-user-slicers/1fb4aaf9-12b8-5cf7-8738-c907c6a2a6f6/scratchpad/portal/v/nil.mp3",
+ "tag": "GTA 6 • VICE CITY PORTALI",
+ "hook_lines": [
+  [
+   "ESKİ VICE CITY'YE",
+   [
+    255,
+    255,
+    255
+   ]
+  ],
+  [
+   "GİZLİ PORTAL!",
+   [
+    255,
+    222,
+    0
+   ]
+  ]
+ ],
+ "hook_until": 3.2,
+ "cta_lines": [
+  "PORTALDAN",
+  "GEÇTİN Mİ?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_vicecity_portal.mp4"
+}
