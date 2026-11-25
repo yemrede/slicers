@@ -601,3 +601,11 @@ OVERLAYS.update({
  "p4": lambda fr, t, dur, font: _card(fr, "MALIBU CLUB • PS2", "TOMMY VERCETTİ OLDUN!" if t > dur * 0.3 else None, t, font, (200, 0, 120)),
  "p5": lambda fr, t, dur, font: _card(fr, "ÖDÜL: GÖMLEK + MOTOR", "AMERICAN GLORY" if t > dur * 0.3 else None, t, font, (40, 150, 90)),
 })
+
+# --- Para Bölüm 2 ---
+OVERLAYS.update({
+ "m1": lambda fr, t, dur, font: (_rank(fr, 1, t, font), _card(fr, "CEP = MAX 20.000$", "ÖLÜNCE / YAKALANINCA GİDER" if t > dur * 0.35 else None, t, font, (200, 0, 20))),
+ "m2": lambda fr, t, dur, font: (_rank(fr, 2, t, font), _card(fr, "ÇANTADAKİ GANİMET ≠ PARA", "SATANA KADAR 0$" if t > dur * 0.3 else None, t, font, (200, 120, 0))),
+ "m3": lambda fr, t, dur, font: (_rank(fr, 3, t, font), _card(fr, "ATM → BUCKME", "CEPTEKİ GİBİ GİTMEZ" if t > dur * 0.3 else None, t, font, (120, 60, 220))),
+ "m4": lambda fr, t, dur, font: (_rank(fr, 4, t, font), _card(fr, "FAMILY SAVINGS", "BÖLÜM SONUNDA KALAN TEK PARA" if t > dur * 0.25 else None, t, font, (40, 150, 90))),
+})

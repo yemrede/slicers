@@ -77,3 +77,4 @@ pip3 install yt-dlp faster-whisper edge-tts
 - Araştırma brifi: `arastirma/01_cikis_oncesi.md`
 
 - Varsayılan paylaşım saati: 19:00 (TR), günde tek video.
+| 22 | Paranı kaybetme Bölüm 2 (kit 2 #2): cep max 20.000$ (oyun menüsü), wasted/busted cep gider (+küçük BuckMe ücreti), çanta ganimeti satana kadar 0$, ATM→BuckMe, bölüm sonunda sadece Family Savings kalır, 10.000$ sonrası limit artışı (rehberlerden; oyunda ilk birikim hedefi 5.000$ görünüyor). Görüntüler: Dodik in GTA 4K, CosmiCandy, kevinsmak menü, PowerPyx, ConCon — dikey 9:16 kesim | Hazır, onay bekleniyor |

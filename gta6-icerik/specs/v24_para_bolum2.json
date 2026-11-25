@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:./clean/a_app.mp4@0@0]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} paranı kaybetme, {Bölüm 2|Bölüm 2}! [[s:v:./clean/b_pocket.mp4@0@660]][[ov:m1]]Cebinde en fazla {20 bin dolar|20.000 dolar} taşıyabilirsin; [[s:v:./clean/c_wasted.mp4@0@660]]ölünce ya da yakalanınca hepsi gider. [[s:v:./clean/d_jewel.mp4@4@0]][[ov:m2]]Çantadaki mücevher, [[s:v:./clean/j_trunk.mp4@0@0]]satana kadar para sayılmaz. [[s:v:./clean/e_atmwalk.mp4@0@0]][[ov:m3]]Parayı ATM'den BuckMe'ye yatır, [[s:v:./clean/f_atm.mp4@0@0]]ölünce gitmez. [[s:v:./clean/h_goal.mp4@0@0]][[ov:m4]]Ama bölüm sonunda sadece Family Savings kalıyor. [[s:v:./clean/g_fam.mp4@0@0]]{10 bin|10.000} doları geçince banka limitin de artıyor. [[s:v:./clean/i_drive.mp4@0@0]][[ov:none]][[cta]]Bölüm 3 gelsin mi? Yorumlara DEVAM yaz!",
+ "voice_file": "./v/nil.mp3",
+ "tag": "PARANI KAYBETME • BÖLÜM 2",
+ "hook_lines": [
+  [
+   "BÖLÜM 2:",
+   [
+    255,
+    222,
+    0
+   ]
+  ],
+  [
+   "PARANI KAYBETME!",
+   [
+    255,
+    255,
+    255
+   ]
+  ]
+ ],
+ "hook_until": 3.0,
+ "cta_lines": [
+  "BÖLÜM 3 GELSİN Mİ?",
+  "\"DEVAM\" YAZ"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1520,
+ "out": "GTA6_para_bolum2.mp4"
+}
