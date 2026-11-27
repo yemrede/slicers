@@ -609,3 +609,90 @@ OVERLAYS.update({
  "m3": lambda fr, t, dur, font: (_rank(fr, 3, t, font), _card(fr, "ATM → BUCKME", "CEPTEKİ GİBİ GİTMEZ" if t > dur * 0.3 else None, t, font, (120, 60, 220))),
  "m4": lambda fr, t, dur, font: (_rank(fr, 4, t, font), _card(fr, "FAMILY SAVINGS", "BÖLÜM SONUNDA KALAN TEK PARA" if t > dur * 0.25 else None, t, font, (40, 150, 90))),
 })
+
+# --- Gizli Tuşlar: PS5 / Xbox tuş ikonları ---
+PSC = {"x": (90, 150, 255), "o": (255, 80, 90), "sq": (240, 120, 220), "tri": (60, 210, 160)}
+XBC = {"A": (90, 200, 60), "B": (230, 60, 60), "X": (60, 120, 235), "Y": (240, 200, 30)}
+
+def _tok_w(tok, s):
+    k = tok[0]
+    if k in ("ps", "xb", "dpad"): return s
+    if k == "trig": return int(s * 1.35)
+    return None
+
+def _draw_tok(d, tok, x, cy, s, font, pulse=0):
+    k = tok[0]; r = s // 2 + pulse
+    if k == "ps":
+        d.ellipse([x + s//2 - r, cy - r, x + s//2 + r, cy + r], fill=(25, 25, 35), outline=WHITE, width=5)
+        c = PSC[tok[1]]; cx = x + s // 2; q = int(s * 0.24); lw = max(6, s // 11)
+        if tok[1] == "x":
+            d.line([cx - q, cy - q, cx + q, cy + q], fill=c, width=lw); d.line([cx - q, cy + q, cx + q, cy - q], fill=c, width=lw)
+        elif tok[1] == "o":
+            d.ellipse([cx - q, cy - q, cx + q, cy + q], outline=c, width=lw)
+        elif tok[1] == "sq":
+            d.rectangle([cx - q, cy - q, cx + q, cy + q], outline=c, width=lw)
+        else:
+            d.polygon([(cx, cy - q - 4), (cx - q - 2, cy + q - 2), (cx + q + 2, cy + q - 2)], outline=c, width=lw)
+        return s
+    if k == "xb":
+        c = XBC[tok[1]]
+        d.ellipse([x + s//2 - r, cy - r, x + s//2 + r, cy + r], fill=c, outline=WHITE, width=5)
+        f = font(int(s * 0.55)); b = d.textbbox((0, 0), tok[1], font=f)
+        d.text((x + s // 2 - (b[2] - b[0]) // 2 - b[0], cy - (b[3] - b[1]) // 2 - b[1]), tok[1], font=f, fill=WHITE)
+        return s
+    if k == "trig":
+        w = int(s * 1.35)
+        d.rounded_rectangle([x - pulse, cy - s // 2 + 6 - pulse, x + w + pulse, cy + s // 2 - 6 + pulse], 22, fill=(235, 235, 240), outline=WHITE, width=4)
+        f = font(int(s * 0.48)); b = d.textbbox((0, 0), tok[1], font=f)
+        d.text((x + w // 2 - (b[2] - b[0]) // 2 - b[0], cy - (b[3] - b[1]) // 2 - b[1]), tok[1], font=f, fill=(20, 20, 30))
+        return w
+    if k == "dpad":
+        cx = x + s // 2; a = s // 2 - 4 + pulse; t3 = s // 6
+        d.rounded_rectangle([cx - a, cy - t3, cx + a, cy + t3], 8, fill=(60, 60, 70), outline=WHITE, width=3)
+        d.rounded_rectangle([cx - t3, cy - a, cx + t3, cy + a], 8, fill=(60, 60, 70), outline=WHITE, width=3)
+        dx = {"L": -1, "R": 1}.get(tok[1], 0); dy = {"U": -1, "D": 1}.get(tok[1], 0)
+        px, py = cx + dx * (a - t3), cy + dy * (a - t3)
+        d.ellipse([px - t3, py - t3, px + t3, py + t3], fill=YELLOW)
+        return s
+    # text token
+    f = font(int(s * 0.42)); w = d.textbbox((0, 0), tok[1], font=f)[2]
+    d.text((x, cy - int(s * 0.25)), tok[1], font=f, fill=YELLOW if tok[1] in ("+", "→") else WHITE, stroke_width=4, stroke_fill=(0, 0, 0))
+    return w
+
+def _btn_panel(fr, t, font, ps, xb, y0=300):
+    if t < 0.1: return
+    d = ImageDraw.Draw(fr, "RGBA"); s = 96; gap = 18
+    rows = [("PS5", ps, (0, 112, 209)), ("XBOX", xb, (16, 124, 16))]
+    k = ease(min(1, (t - 0.1) / 0.25))
+    for ri, (lab, toks, col) in enumerate(rows):
+        cy = y0 + 60 + ri * (s + 34)
+        # measure
+        fl = font(40); lw = d.textbbox((0, 0), lab, font=fl)[2] + 36
+        widths = [(_tok_w(tk, s) or d.textbbox((0, 0), tk[1], font=font(int(s * 0.42)))[2]) for tk in toks]
+        total = lw + gap + sum(widths) + gap * (len(toks) - 1)
+        x = (W - total) // 2 + int((1 - k) * (-W if ri == 0 else W))
+        d.rounded_rectangle([x - 24, cy - s // 2 - 14, x + total + 24, cy + s // 2 + 14], 30, fill=(10, 8, 25, 205))
+        d.rounded_rectangle([x, cy - 30, x + lw, cy + 30], 18, fill=col)
+        d.text((x + 18, cy - 24), lab, font=fl, fill=WHITE)
+        x += lw + gap
+        for i, tk in enumerate(toks):
+            appear = 0.35 + i * 0.18
+            if t < appear: break
+            pulse = int(6 * max(0, math.sin((t - appear) * 6))) if tk[0] != "t" else 0
+            _draw_tok(d, tk, x, cy, s, font, pulse)
+            x += widths[i] + gap
+
+def _tus(n, title, sub, ps, xb, color):
+    def f(fr, t, dur, font):
+        _rank(fr, n, t, font)
+        _btn_panel(fr, t, font, ps, xb)
+        _card(fr, title, sub if t > dur * 0.3 else None, t, font, color)
+    return f
+
+OVERLAYS.update({
+ "k1": _tus(1, "KONTRA AT", "SALDIRIDAN HEMEN ÖNCE BAS", [("ps","x"),("t","→"),("ps","sq")], [("xb","A"),("t","→"),("xb","X")], (200, 0, 20)),
+ "k2": _tus(2, "YAKALA + EK DARBE", "BASILI TUT, SONRA VUR", [("trig","R2"),("t","basılı"),("t","+"),("ps","sq")], [("trig","RT"),("t","basılı"),("t","+"),("xb","X")], (200, 120, 0)),
+ "k3": _tus(3, "ARKADAN SESSİZ YAKALA", "ÖNCE ÇÖMEL", [("ps","o"),("t","→"),("trig","R2"),("t","basılı")], [("xb","B"),("t","→"),("trig","RT"),("t","basılı")], (120, 60, 220)),
+ "k4": _tus(4, "OMUZ DEĞİŞTİR", "NİŞAN ALIRKEN", [("trig","L2"),("t","+"),("dpad","L")], [("trig","LT"),("t","+"),("dpad","L")], (40, 150, 90)),
+ "k5": _tus(5, "ISLIKLA TUZAĞA ÇEK", "SAKLANIRKEN DÜŞMANA BAK", [("trig","L2"),("t","basılı"),("t","+ bak")], [("trig","LT"),("t","basılı"),("t","+ bak")], (30, 140, 200)),
+})
