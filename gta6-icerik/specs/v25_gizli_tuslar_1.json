@@ -1,5 +1,5 @@
 {
- "script": "[[s:v:./clean/a_hook.mp4@0@0]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} dövüşün gizli tuşları! [[s:v:./clean/b_prompt.mp4@0@700]][[ov:k1]]Bir: Saldırı gelmeden hemen önce çarpıya bas, [[s:v:./clean/c_panel_ctr.mp4@0@640]]kontra at, ardından kareyle vur. [[s:v:./clean/d_grab1.mp4@0@0]][[ov:k2]]İki: R2'yi basılı tut, rakibi yakala; [[s:v:./clean/e_grab2.mp4@0@0]]yakalarken kare ek darbe vurdurur. [[s:v:./clean/f_sneak.mp4@0@0]][[ov:k3]]Üç: Çömel, düşmanın arkasına sız, R2 ile sessizce yakala. [[s:v:./clean/g_aim.mp4@0@0]][[ov:k4]]Dört: Nişan alırken yön tuşunda sola bas, [[s:v:./clean/h_panel_sh.mp4@0@640]]omuz değişir. [[s:v:./clean/i_panel_wh.mp4@0@640]][[ov:k5]]Beş: Saklanırken L2'yi basılı tutup düşmana bak; ıslık çalıp onu yanına çekersin. [[s:v:./clean/j_cta.mp4@0@0]][[ov:none]][[cta]]Hangisini bilmiyordun? Yorumlara yaz!",
+ "script": "[[s:v:./clean/a_hook.mp4@0@0]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} dövüşün gizli tuşları! [[s:v:./clean/b_fight1.mp4@0@0]][[ov:k1]]Bir: Saldırı gelmeden hemen önce çarpıya bas, [[s:v:./clean/c_fight2.mp4@0@0]]kontra at, ardından kareyle vur. [[s:v:./clean/d_grab1.mp4@0@0]][[ov:k2]]İki: R2'yi basılı tut, rakibi yakala; [[s:v:./clean/e_grab2.mp4@0@0]]yakalarken kare ek darbe vurdurur. [[s:v:./clean/f_sneak.mp4@0@0]][[ov:k3]]Üç: Çömel, düşmanın arkasına sız, R2 ile sessizce yakala. [[s:v:./clean/g_aim.mp4@0@0]][[ov:k4]]Dört: Nişan alırken yön tuşunda sola bas, [[s:v:./clean/h_aim2.mp4@0@0]]omuz değişir. [[s:v:./clean/i_night.mp4@0@0]][[ov:k5]]Beş: Saklanırken L2'yi basılı tutup düşmana bak; ıslık çalıp onu yanına çekersin. [[s:v:./clean/j_cta.mp4@0@0]][[ov:none]][[cta]]Hangisini bilmiyordun? Yorumlara yaz!",
  "voice_file": "./v/nil.mp3",
  "tag": "GİZLİ TUŞLAR #1 • DÖVÜŞ",
  "hook_lines": [
@@ -26,6 +26,6 @@
   "BİLMİYORDUN?"
  ],
  "cta_sub": "1-5 YORUMLARA YAZ",
- "caption_y": 1520,
+ "caption_y": 1430,
  "out": "GTA6_gizli_tuslar_1_dovus.mp4"
 }

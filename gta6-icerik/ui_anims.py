@@ -659,13 +659,13 @@ def _draw_tok(d, tok, x, cy, s, font, pulse=0):
     d.text((x, cy - int(s * 0.25)), tok[1], font=f, fill=YELLOW if tok[1] in ("+", "→") else WHITE, stroke_width=4, stroke_fill=(0, 0, 0))
     return w
 
-def _btn_panel(fr, t, font, ps, xb, y0=300):
+def _btn_panel(fr, t, font, ps, xb, y0=1585):
     if t < 0.1: return
-    d = ImageDraw.Draw(fr, "RGBA"); s = 96; gap = 18
+    d = ImageDraw.Draw(fr, "RGBA"); s = 82; gap = 16
     rows = [("PS5", ps, (0, 112, 209)), ("XBOX", xb, (16, 124, 16))]
     k = ease(min(1, (t - 0.1) / 0.25))
     for ri, (lab, toks, col) in enumerate(rows):
-        cy = y0 + 60 + ri * (s + 34)
+        cy = y0 + 60 + ri * (s + 28)
         # measure
         fl = font(40); lw = d.textbbox((0, 0), lab, font=fl)[2] + 36
         widths = [(_tok_w(tk, s) or d.textbbox((0, 0), tk[1], font=font(int(s * 0.42)))[2]) for tk in toks]
