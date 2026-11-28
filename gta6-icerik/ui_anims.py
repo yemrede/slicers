@@ -696,3 +696,71 @@ OVERLAYS.update({
  "k4": _tus(4, "OMUZ DEĞİŞTİR", "NİŞAN ALIRKEN", [("trig","L2"),("t","+"),("dpad","L")], [("trig","LT"),("t","+"),("dpad","L")], (40, 150, 90)),
  "k5": _tus(5, "ISLIKLA TUZAĞA ÇEK", "SAKLANIRKEN DÜŞMANA BAK", [("trig","L2"),("t","basılı"),("t","+ bak")], [("trig","LT"),("t","basılı"),("t","+ bak")], (30, 140, 200)),
 })
+
+# --- Gizli Tuşlar #2: PS5'e özel ---
+def _draw_pad(d, x, cy, s, pulse=0):
+    w = int(s * 1.9)
+    d.rounded_rectangle([x - pulse, cy - s // 2 + 8 - pulse, x + w + pulse, cy + s // 2 - 8 + pulse], 26, fill=(40, 40, 52), outline=WHITE, width=5)
+    for i in range(3):
+        d.line([x + 22, cy - 16 + i * 16, x + w - 22, cy - 16 + i * 16], fill=(90, 90, 110), width=3)
+    return w
+
+def _ps5_row(fr, t, font, toks, y=1680):
+    if t < 0.1: return
+    d = ImageDraw.Draw(fr, "RGBA"); s = 86; gap = 18
+    fl = font(40); lw = d.textbbox((0, 0), "PS5", font=fl)[2] + 36
+    def tw(tk):
+        if tk[0] == "pad": return int(s * 1.9)
+        return _tok_w(tk, s) or d.textbbox((0, 0), tk[1], font=font(int(s * 0.42)))[2]
+    widths = [tw(tk) for tk in toks]
+    total = lw + gap + sum(widths) + gap * (len(toks) - 1)
+    k = ease(min(1, (t - 0.1) / 0.25))
+    x = (W - total) // 2 + int((1 - k) * -W)
+    d.rounded_rectangle([x - 24, y - s // 2 - 16, x + total + 24, y + s // 2 + 16], 30, fill=(10, 8, 25, 210))
+    d.rounded_rectangle([x, y - 30, x + lw, y + 30], 18, fill=(0, 112, 209))
+    d.text((x + 18, y - 24), "PS5", font=fl, fill=WHITE)
+    x += lw + gap
+    for i, tk in enumerate(toks):
+        appear = 0.35 + i * 0.2
+        if t < appear: break
+        pulse = int(6 * max(0, math.sin((t - appear) * 6))) if tk[0] in ("trig", "pad", "ps") else 0
+        if tk[0] == "pad": _draw_pad(d, x, y, s, pulse)
+        else: _draw_tok(d, tk, x, y, s, font, pulse)
+        x += widths[i] + gap
+
+def _r2_meter(fr, t, font):
+    # direnç noktası animasyonu: R2 çubuğu dolar, %60'ta "DİRENÇ" çizgisi
+    d = ImageDraw.Draw(fr, "RGBA"); x0, y0, w, h = W - 230, 760, 70, 330
+    d.rounded_rectangle([x0 - 12, y0 - 60, x0 + w + 12, y0 + h + 12], 24, fill=(10, 8, 25, 200))
+    f = font(34); d.text((x0 + 8, y0 - 52), "R2", font=f, fill=WHITE)
+    lvl = min(0.6, max(0, (t - 0.4) / 1.2) * 0.6) + (0.03 * math.sin(t * 9) if t > 1.6 else 0)
+    d.rounded_rectangle([x0, y0, x0 + w, y0 + h], 16, outline=WHITE, width=4)
+    fy = min(y0 + h - 20, y0 + h - int(h * max(0, lvl)))
+    d.rounded_rectangle([x0 + 6, fy, x0 + w - 6, y0 + h - 6], 12, fill=(255, 79, 163))
+    ry = y0 + h - int(h * 0.6)
+    d.line([x0 - 20, ry, x0 + w + 20, ry], fill=YELLOW, width=6)
+
+def _speaker(fr, t):
+    d = ImageDraw.Draw(fr, "RGBA"); cx, cy = W - 190, 900
+    d.ellipse([cx - 110, cy - 110, cx + 110, cy + 110], fill=(10, 8, 25, 200))
+    d.rectangle([cx - 60, cy - 28, cx - 25, cy + 28], fill=WHITE)
+    d.polygon([(cx - 25, cy - 28), (cx + 15, cy - 62), (cx + 15, cy + 62), (cx - 25, cy + 28)], fill=WHITE)
+    for i in range(3):
+        if (t * 3 + i) % 3 < 2:
+            r = 40 + i * 22
+            d.arc([cx + 5 - r, cy - r, cx + 5 + r, cy + r], -40, 40, fill=(255, 80, 90) if i % 2 else (90, 150, 255), width=8)
+
+def _ps5(n, title, sub, toks, extra=None, color=(0, 112, 209)):
+    def f(fr, t, dur, font):
+        _rank(fr, n, t, font)
+        if extra: extra(fr, t, font) if extra is _r2_meter else extra(fr, t)
+        _ps5_row(fr, t, font, toks)
+        _card(fr, title, sub if t > dur * 0.3 else None, t, font, color)
+    return f
+
+OVERLAYS.update({
+ "q1": _ps5(1, "ADAPTİF HIZ SINIRLAYICI", "R2'Yİ DİRENÇ NOKTASINA KADAR BAS", [("trig","R2"),("t","direnç noktası")], _r2_meter, (200, 0, 20)),
+ "q2": _ps5(2, "DOKUNMATİK PANEL = HARİTA", "ANINDA AÇILIR", [("pad",""),("t","→ HARİTA")], None, (200, 120, 0)),
+ "q3": _ps5(3, "KONTROLCÜ POLİS TELSİZİ", "AYARLAR › SES › AÇ", [("t","Ses › Controller Cop Scanner: AÇ")], _speaker, (30, 140, 200)),
+ "q4": _ps5(4, "TETİK DİRENCİNİ KAPAT", "PARMAKLARIN YORULMASIN", [("trig","L2"),("trig","R2"),("t","direnç: KAPAT")], None, (40, 150, 90)),
+})

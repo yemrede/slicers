@@ -1,0 +1,31 @@
+{
+ "script": "[[s:v:./clean/e_hook.mp4@0@0]][[hook]]{Ci Ti Ey Six'te|GTA 6'da} sadece PS5'te olan gizli özellikler! [[s:v:./clean/a_drive.mp4@0@0]][[ov:q1]]Bir: Araçtayken R2'yi [[s:v:./clean/c_menu.mp4@0@640]]direnç noktasına kadar bas, [[s:v:./clean/b_drive2.mp4@0@0]]araba yolun hız sınırında kalır. [[s:v:./clean/d_map.mp4@0@0]][[ov:q2]]İki: Dokunmatik panele bas, harita anında açılır. [[s:v:./clean/g_chase2.mp4@0@0]][[ov:q3]]Üç: Ses ayarlarından [[s:v:./clean/f_menu2.mp4@0@640]]kontrolcü polis telsizini aç, [[s:v:./clean/g_chase.mp4@0@0]]polis anonslarını kolundan dinle. [[s:v:./clean/h_aim.mp4@0@0]][[ov:q4]]Dört: Tetikler parmağını yoruyorsa ayarlardan adaptif tetik direncini kapat. [[s:v:./clean/i_cta.mp4@0@0]][[ov:none]][[cta]]Sen PS5'te mi oynuyorsun? Yorumlara yaz!",
+ "voice_file": "./v/nil.mp3",
+ "tag": "GİZLİ TUŞLAR #2 • PS5",
+ "hook_lines": [
+  [
+   "GİZLİ TUŞLAR #2",
+   [
+    255,
+    222,
+    0
+   ]
+  ],
+  [
+   "SADECE PS5'TE!",
+   [
+    255,
+    255,
+    255
+   ]
+  ]
+ ],
+ "hook_until": 3.0,
+ "cta_lines": [
+  "PS5'TE Mİ",
+  "OYNUYORSUN?"
+ ],
+ "cta_sub": "YORUMLARA YAZ",
+ "caption_y": 1430,
+ "out": "GTA6_gizli_tuslar_2_ps5.mp4"
+}
